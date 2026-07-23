@@ -75,8 +75,25 @@ const imagenes = [
 },
 
 {
+    id: "carrara-gold",
     nombre: "Carrara Gold",
-    archivo: "TC6012A0140_CARRARA GOLD_FINAL.png"
+    archivo: "TC6012A0140_CARRARA GOLD_FINAL.png",
+    descripcion: "The Carrara Gold porcelain tile stands out for its pure white background with golden and gray veins, lending a sophisticated and modern aesthetic to any space and giving it the organic timelessness it deserves. This design offers exceptional visual precision for luxury architectural projects. Available in polished and matte finishes.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+    {
+        ancho: 60,
+        alto: 30
+    },
+      
+    ],
 },
 
 {
