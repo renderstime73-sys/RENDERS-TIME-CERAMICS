@@ -80,8 +80,25 @@ const imagenes = [
 },
 
 {
+    id: "corezzi-beige",
     nombre: "Corezzi Beige",
-    archivo: "TP6012B4011_COREZZI BEIGE.jpg"
+    archivo: "TP6012B4011_COREZZI BEIGE.jpg",
+    descripcion: "Inspired by the beauty of natural marble, it is designed to create warm, bright, and sophisticated spaces. Its delicate beige and ivory veining adds depth and harmony, delivering a refined aesthetic that seamlessly complements both residential and commercial projects.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+      
+    ],
+    acabado: "Matte",
+    video: "videos/corezzi.mp4",
+    ficha: "pdf/corezzi.pdf",
+    renders: [
+        "TP6012B4011_COREZZI BEIGE.jpg",
+        "COREZZI_TP6012B4010.png",
+        
+       ] 
 },
 
 {
@@ -127,7 +144,7 @@ const imagenes = [
     }
 ],
     acabado: "Matte",
-    
+    video: "videos/HUSEN_2.mp4",
     ficha: "pdf/husen.pdf",
     renders: [
         "TT2012B4210_HUSEN.jpg",
