@@ -70,8 +70,30 @@ const imagenes = [
 },
 
 {
-    nombre: "Arcadia Beige",
-    archivo: "TP6012A0200_ARCADIA BEIGE 3D.jpg"
+    id: "arcadia",
+    nombre: "Arcadia",
+    archivo: "TP6012A0200_ARCADIA BEIGE 3D.jpg",
+    descripcion: "This porcelain tile captures the serene elegance of natural travertine in a contemporary interpretation, featuring soft linear veining and delicate tonal variations in light beige and ivory hues. Its natural-looking design adds subtle depth and texture, creating bright, warm, and visually harmonious spaces.",
+     formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 30
+    },
+      
+    ],
+     acabado: "Polished & Matte",
+    video: "videos/arcadia_video.mp4",
+    ficha: "pdf/arcadia_info.pdf",
+    renders: [
+        "TP6012A0200_ARCADIA BEIGE 3D.jpg",
+        "arcadia_1.jpg",
+        "arcadia_2.jpg"
+        
+       ] 
 },
 
 {
@@ -94,6 +116,15 @@ const imagenes = [
     },
       
     ],
+    acabado: "Polished & Matte",
+    video: "videos/carrara_gold.mp4",
+    ficha: "pdf/carrara_gold.pdf",
+    renders: [
+        "TC6012A0140_CARRARA GOLD_FINAL.png",
+        "carrara_gold.jpg",
+        "TC6012A0140_CARRARA GOLD 3D.jpg"
+        
+       ] 
 },
 
 {
