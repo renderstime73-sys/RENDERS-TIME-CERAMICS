@@ -62,3 +62,15 @@ producto.video;
 
 document.getElementById("ficha").href =
 producto.ficha;
+
+
+if(producto.recorrido){
+
+    document.getElementById("tour360").src =
+    producto.recorrido;
+
+}else{
+
+    document.getElementById("tour360").style.display = "none";
+
+}

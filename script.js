@@ -1,72 +1,365 @@
 const imagenes = [
 
-    {
+    {   id: "amiata",
         nombre: "Amiata Gris Oscuro",
-        archivo: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg"
+        archivo: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
+        descripcion: "Inspired by the authentic beauty of natural stone, the AMIATA collection features a soft texture, delicate tonal variations, and subtle veining that add depth and realism to every surface. Its balanced design combines a contemporary mineral appearance with a timeless aesthetic, creating sophisticated, bright, and welcoming spaces. Available in five carefully selected shades, ranging from warm beiges to modern grays, offers exceptional versatility for both residential and commercial projects.",
+        formatos: [
+    {
+        ancho: 60,
+        alto: 120
     },
-{
+    {
+        ancho: 60,
+        alto: 60
+    },
+    {
+        ancho: 60,
+        alto: 30
+    },
+    ],
+    acabado: "Matte",
+    video: "videos/amiata_video.mp4",
+    ficha: "pdf/amiata_info.pdf",
+    renders: [
+        "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
+        "amiata_1.jpg",
+        "amiata_2.jpg",
+        "amiata_3.jpg",
+        "amiata_4.jpg"
+       ]
+    },
+
+
+{   id: "gardenia",
     nombre: "Gardenia",
-    archivo: "TC6012A0210_GARDENIA.jpg"
+    archivo: "TC6012A0210_GARDENIA.jpg",
+    descripcion: "This mineral-inspired porcelain surfacing dresses floors and walls in a broken-white canvas with subtle cream sweeps. Its architectural design amplifies light and openness, delivering high-resistance, avant-garde minimalism.",
+     formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+    {
+        ancho: 60,
+        alto: 30
+    },
+    ],
+    acabado: "Polished & Antislip",
+    video: "videos/gardenia_video.mp4",
+    ficha: "pdf/gardenia_info.pdf",
+     renders: [
+        "TC6012A0210_GARDENIA.jpg",
+        "gardenia_1.jpg",
+        "gardenia_2.jpg",
+       ]
+
 },
 
-{
+{   id: "asleth",
     nombre: "Asleth",
-    archivo: "TC6012A0320_ASLETH 3D.jpg"
+    archivo: "TC6012A0320_ASLETH 3D.jpg",
+    descripcion: "This porcelain tile features a warm, soft beige background with delicate sand-colored veins, creating a natural and subtle sense of movement. Based on the design shown in the image, this tile is ideal for creating cozy, timeless spaces with a relaxed elegance. Available in a polished finish, for a subtle sheen that enhances the depth of color, and in a matte finish, for a soft-to-the-touch texture and a more natural appearance.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+    {
+        ancho: 60,
+        alto: 30
+    },
+    ],
+    acabado: "Polished & Matte",
+    video: "videos/asleth_video.mp4",
+    ficha: "pdf/asleth_info.pdf",
+    renders: [
+        "TC6012A0320_ASLETH 3D.jpg",
+        "asleth_1.jpg",
+        "asleth_2.jpg",
+        "asleth_3.jpg"
+       ]
 },
 
-{
+{   id: "dozza-elite",
     nombre: "Dozza Elite",
-    archivo: "TC6012A0510_DOZZA ELITE 3D.jpg"
+    archivo: "TC6012A0510_DOZZA ELITE 3D.jpg",
+    descripcion: "This porcelain tile captures the translucent essence and delicacy of onyx. Its soft cream tone is complemented by ethereal veins and subtle golden hues that lend a unique visual depth, making it ideal for creating serene, luxurious spaces with a sense of expansive light. Available in a polished finish, which enhances its glass-like effect and spectacular shine, and in a matte finish, for an elegant, tactile, and exceptionally smooth surface.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+    {
+        ancho: 60,
+        alto: 30
+    },
+    ],
+    acabado: "Polished & Matte",
+    video: "videos/dozza_video.mp4",
+    ficha: "pdf/dozza_info.pdf",
+    renders: [
+        "TC6012A0510_DOZZA ELITE 3D.jpg",
+        "dozzaelite_1.jpg",
+        "dozzaelite_2.jpg",
+        "dozzaelite_3.jpg"
+       ]
 },
 
-{
+{   id: "positano",
     nombre: "Positano",
-    archivo: "TC6012A0580_POSITANO 3D.jpg"
+    archivo: "TC6012A0580_POSITANO 3D.jpg",
+    descripcion: "Inspired by the elegance of natural onyx, this porcelain tile features a luminous ivory background accented by delicate gold and soft gray veining. Its design conveys depth, exclusivity, and sophistication, creating spacious and refined interiors that enhance both high-end residential and commercial projects.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+    ],
+    acabado: "Polished",
+    video: "videos/positano_video.mp4",
+    recorrido: "https://kuula.co/share/collection/7DjdW?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
+    ficha: "pdf/positano_info.pdf",
+    renders: [
+        "TC6012A0580_POSITANO 3D.jpg",
+        "positano_1.jpg",
+        "positano_2.jpg",
+       ]
 },
 
-{
+{   id: "nevado",
     nombre: "Nevado",
-    archivo: "TC6012A0980_NEVADO.jpg"
+    archivo: "TC6012A0980_NEVADO.jpg",
+    descripcion: "This pure white porcelain tile stands out for its clean, uniform, and bright appearance, offering a timeless aesthetic that enhances visual spaciousness while bringing a sense of order and sophistication to any environment. Its minimalist surface serves as the perfect canvas for contemporary architectural projects, allowing complete freedom in the combination of materials, colors, and decorative styles.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+     {
+        ancho: 60,
+        alto: 30
+    },
+    ],
+    acabado: "Polished & Matte",
+    video: "videos/nevado_video.mp4",
+    ficha: "pdf/nevado_info.pdf",
+    renders: [
+        "TC6012A0980_NEVADO.jpg",
+        "nevado_1.jpg",
+        "nevado_2.jpg",
+        "nevado_3.jpg"
+       ]
 },
 
-{
+{   id: "brescia",
     nombre: "Brescia",
-    archivo: "TC6060A0010-brescia.jpg"
+    archivo: "TC6060A0010-brescia.jpg",
+    descripcion: "Inspired by the grandeur of Calacatta marble, this porcelain tile features a pristine white background enhanced by bold gray veining that brings movement and character to every surface. Its large-format design creates seamless visual continuity, resulting in bright, sophisticated, and contemporary interiors. Ideal for both floors and walls, it combines the luxurious appeal of natural marble with the durability, strength, and low-maintenance benefits of porcelain.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 60
+    },
+    ],
+    acabado: "Polished",
+    video: "videos/brescia_video.mp4",
+    ficha:"pdf/brescia_info.pdf",
+    renders: [
+        "TC6060A0010-brescia.jpg",
+        "brescia_1.jpg",
+        "brescia_2.jpg",
+       ]
 },
 
-{
+{   id: "perla",
     nombre: "Perla",
-    archivo: "TC6060A0120-perla.jpg"
+    archivo: "TC6060A0120-perla.jpg",
+    descripcion: "This porcelain tile features a pure white background with delicate gray veining that flows softly across the surface, recreating the sophistication of the world's most exclusive marbles. Its balanced design enhances visual spaciousness, brightness, and a sense of understated luxury, making it a versatile choice for both residential and commercial projects.",
+     formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+    {
+        ancho: 60,
+        alto: 30
+    },
+    ],
+    acabado: "Polished & Matte",
+    video: "videos/perla_video.mp4",
+    ficha: "pdf/perla_info.pdf",
+     renders: [
+        "TC6060A0120-perla.jpg",
+        "perla_1.jpg",
+        "perla_2.jpg",
+       ] 
 },
 
-{
+{   id: "seda",
     nombre: "Seda",
-    archivo: "TC6060A0290_SEDA.png"
+    archivo: "TC6060A0290_SEDA.png",
+    descripcion: "This cream marble-look porcelain tile perfectly combines the warmth of subtle, natural veining with the ultimate durability of ceramic technology. Designed to bring brightness and classic elegance to both floors and walls, it offers a highly wear-resistant, low-maintenance surface that effortlessly transforms any space into an upscale, welcoming environment.",
+     formatos: [
+    {
+        ancho: 60,
+        alto: 60
+    },
+    ],
+    acabado: "Polished",
+    video: "videos/seda_video.mp4",
+    ficha: "pdf/seda_info.pdf",
+    renders: [
+        "TC6060A0290_SEDA.png",
+        "seda_1.jpg",
+        "seda_2.jpg",
+       ] 
 },
 
-{
+{   id: "bellagio",
     nombre: "Bellagio",
-    archivo: "TC6060A0550_BELLAGIO.png"
+    archivo: "TC6060A0550_BELLAGIO.png",
+    descripcion: "Inspired by the exclusivity of natural onyx, Bellagio showcases a delicate sky-blue hue enhanced by subtle white veining and soft warm accents that add depth and sophistication. Its translucent appearance faithfully recreates the beauty of natural stone, making it an ideal choice for contemporary spaces that seek elegance, brightness, and a sense of visual openness.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+    ],
+    acabado: "Polished",
+    video: "videos/bellagio_video.mp4",
+    ficha: "pdf/bellagio_info.pdf",
+     renders: [
+        "TC6060A0550_BELLAGIO.png",
+        "bellagio_1.jpg",
+        "bellagio_2.jpg",
+       ] 
 },
 
-{
+{   id: "paraty",
     nombre: "Paraty",
-    archivo: "TC6060A0950-PARATY.jpg"
+    archivo: "TC6060A0950-PARATY.jpg",
+    descripcion: "Paraty embodies natural luxury through a harmonious blend of a pristine white background and elegant golden veining accented with subtle gray tones. Inspired by some of the world's most exclusive marbles, its design adds depth, warmth, and distinctive character, transforming any interior into a sophisticated setting. Its versatile aesthetic makes it the perfect choice for contemporary projects seeking a refined finish with remarkable visual impact.",
+     formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    {
+        ancho: 60,
+        alto: 60
+    },
+    ],
+    acabado: "Polished & Matte",
+    video: "videos/paraty_video.mp4",
+    ficha: "pdf/paraty_info.pdf",
+    renders: [
+        "TC6060A0950-PARATY.jpg",
+        "paraty_1.jpg",
+        "paraty_2.jpg",
+       ] 
 },
 
-{
+{   id: "zara",
     nombre: "Zara",
-    archivo: "TC6012A0060_ZARA.png"
+    archivo: "TC6012A0060_ZARA.png",
+    descripcion: "Inspired by the timeless beauty of premium marble, this porcelain tile features a luminous ivory backdrop accented by graceful gray veining that flows effortlessly across the surface. Its clean, understated aesthetic creates a refined atmosphere, making it an excellent choice for interiors that embrace modern luxury, balance, and enduring elegance. Designed to complement both residential and commercial environments, it delivers a sophisticated natural stone appearance with the lasting performance of porcelain.",
+     formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    ],
+    acabado: "Polished",
+    video: "videos/zara_video.mp4",
+    ficha: "pdf/zara_info.pdf",
+    renders: [
+        "TC6012A0060_ZARA.png",
+        "zara_1.jpg",
+        "zara_2.jpg",
+       ] 
 },
 
-{
+{   id: "statuario",
     nombre: "Statuario",
-    archivo: "TC6060A0960_STATUARIO.png"
+    archivo: "TC6060A0960_STATUARIO.png",
+    descripcion: "Defined by its clean and understated aesthetic, this porcelain tile reimagines the elegance of white marble through delicate gray veining that flows naturally across the surface. Its subtle composition creates a sense of calm and balance, making it the perfect foundation for contemporary architectural and interior design projects. Suitable for both residential and commercial spaces, it delivers a refined appearance while providing the exceptional durability and performance of porcelain.", 
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+     {
+        ancho: 60,
+        alto: 60
+    },
+     {
+        ancho: 60,
+        alto: 30
+    },
+    ],
+    acabado: "Polished & Matte",
+    video: "videos/statuario_video.mp4",
+    ficha: "pdf/statuario_info.pdf",
+    renders: [
+        "TC6060A0960_STATUARIO.png",
+        "statuario_1.jpg",
+        "statuario_2.jpg",
+        "statuario_3.jpg"
+        
+       ] 
+    
 },
 
-{
+{   
+    id: "marquis",
     nombre: "Marquis Beige Soft",
-    archivo: "TP6012A0081_MARQUIS BEIGE SOFT_FINAL.jpg"
+    archivo: "TP6012A0081_MARQUIS BEIGE SOFT_FINAL.jpg",
+    descripcion: "Inspired by the understated beauty of natural limestone, this porcelain tile features a soft light gray tone and a subtle textured surface that delivers an authentic, contemporary look. Its minimalist design provides a refined and versatile foundation, making it ideal for spaces that emphasize brightness, openness, and harmony. Suitable for both residential and commercial applications, it combines timeless aesthetics with the durability and performance of porcelain.",
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    },
+    ],
+    acabado: "Matte",
+    video: "videos/marquis_video.mp4",
+    ficha: "pdf/marquis_info.pdf",
+    renders: [
+        "TP6012A0081_MARQUIS BEIGE SOFT_FINAL.jpg",
+        "marquis_1.jpg",
+        "marquis_2.jpg",
+        "marquis_3.jpg"
+        
+       ] 
 },
 
 {
@@ -91,7 +384,8 @@ const imagenes = [
     renders: [
         "TP6012A0200_ARCADIA BEIGE 3D.jpg",
         "arcadia_1.jpg",
-        "arcadia_2.jpg"
+        "arcadia_2.jpg",
+        "arcadia_3.jpg"
         
        ] 
 },
