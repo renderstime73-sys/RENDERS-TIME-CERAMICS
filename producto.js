@@ -12,20 +12,28 @@ const miniaturas = document.getElementById("miniaturas");
 
 producto.renders.forEach(render => {
 
+    const item = document.createElement("div");
+    item.className = "miniatura-item";
+
     const img = document.createElement("img");
-
-    img.src = "images/" + render;
-
+    img.src = "images/" + render.imagen;
     img.className = "miniatura";
 
     img.onclick = function(){
 
         document.getElementById("imagenPrincipal").src =
-        "images/" + render;
+        "images/" + render.imagen;
 
     };
 
-    miniaturas.appendChild(img);
+    const titulo = document.createElement("p");
+    titulo.className = "miniatura-titulo";
+    titulo.textContent = render.nombre;
+
+    item.appendChild(img);
+    item.appendChild(titulo);
+
+    miniaturas.appendChild(item);
 
 });
 

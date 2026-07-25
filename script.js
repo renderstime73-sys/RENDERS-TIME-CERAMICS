@@ -466,9 +466,15 @@ const imagenes = [
     recorrido: "https://kuula.co/share/collection/7DszS?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
     ficha: "pdf/olmec.pdf",
     renders: [
-        "TA3060A0180_OLMEC BEIGE.jpg",
-        "UP6012A0181_OLMEC GRIS CLARO 3D_.jpg",
-        "UP6012A0181_OLMEC GRIS CLARO 3D.jpg"
+       { imagen: "TA3060A0180_OLMEC BEIGE.jpg",
+       nombre: "Olmec Beige"
+       },
+        {imagen: "UP6012A0181_OLMEC GRIS CLARO 3D_.jpg",
+        nombre: "Olmec Gris Claro"
+        },
+        {imagen: "UP6012A0181_OLMEC GRIS CLARO 3D.jpg",
+        nombre: "Olmec Gris Medio"
+        },
        ] 
 },
 
@@ -509,7 +515,7 @@ const imagenes = [
     archivo: "TW6012C0652_LAURENT GOLD 3D.jpg",
 
     descripcion:
-    "La elegancia del mármol negro se redefine en esta superficie de acabado High Gloss, donde la profundidad del fondo oscuro se realza con delicadas vetas doradas que recorren la pieza de manera orgánica y sofisticada. Su brillo espejo aporta amplitud, luminosidad y una sensación de lujo contemporáneo, convirtiéndolo en una opción ideal para proyectos residenciales y comerciales de alto nivel.",
+    "The elegance of black marble is redefined in this high-gloss finish, where the depth of the dark background is enhanced by delicate golden veins that flow across the surface in an organic and sophisticated manner. Its mirror-like shine adds spaciousness, brightness, and a sense of contemporary luxury, making it an ideal choice for high-end residential and commercial projects. Perfect for cladding, decorative walls, and interior flooring where a statement of distinction is desired.",
 
     formatos: [
     {
