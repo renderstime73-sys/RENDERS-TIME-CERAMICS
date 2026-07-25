@@ -463,6 +463,7 @@ const imagenes = [
 
     acabado: "Matte",
     video: "videos/olmec.mp4",
+    recorrido: "https://kuula.co/share/collection/7DszS?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
     ficha: "pdf/olmec.pdf",
     renders: [
         "TA3060A0180_OLMEC BEIGE.jpg",
