@@ -446,7 +446,7 @@ const imagenes = [
 {
     id: "olmec-beige",
 
-    nombre: "Olmec Beige",
+    nombre: "Olmec",
     archivo: "TA3060A0180_OLMEC BEIGE.jpg",
     descripcion: "This matte-finish porcelain tile faithfully reproduces the subtle beauty of natural tone, combining soft light gray tones with delicate textural variations and mineral-inspired nuances. Its design achieves a refined visual balance, where organic details and subtle veining create an authentic, serene, and sophisticated surface. Its uniform appearance and neutral tones enhance a sense of spaciousness, brightness, and tranquility, making it an excellent choice for residential and commercial spaces seeking a modern and timeless aesthetic. The matte finish further emphasizes the natural character of the design, delivering an elegant and understated look",
     

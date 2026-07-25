@@ -654,3 +654,36 @@ ul{
     background:#111;
 
 }
+
+
+.footer-col a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#9f9f9f;
+
+    margin-top:14px;
+
+    transition:.3s;
+
+}
+
+.footer-col a:hover{
+
+    color:#ffffff;
+
+    transform:translateX(6px);
+
+}
+
+.footer-col i{
+
+    width:20px;
+
+    font-size:18px;
+
+}
