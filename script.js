@@ -1,7 +1,7 @@
 const imagenes = [
 
     {   id: "amiata",
-        nombre: "Amiata Gris Oscuro",
+        nombre: "Amiata",
         archivo: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
         descripcion: "Inspired by the authentic beauty of natural stone, the AMIATA collection features a soft texture, delicate tonal variations, and subtle veining that add depth and realism to every surface. Its balanced design combines a contemporary mineral appearance with a timeless aesthetic, creating sophisticated, bright, and welcoming spaces. Available in five carefully selected shades, ranging from warm beiges to modern grays, offers exceptional versatility for both residential and commercial projects.",
         formatos: [
@@ -22,11 +22,22 @@ const imagenes = [
     video: "videos/amiata_video.mp4",
     ficha: "pdf/amiata_info.pdf",
     renders: [
-        "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
-        "amiata_1.jpg",
-        "amiata_2.jpg",
-        "amiata_3.jpg",
-        "amiata_4.jpg"
+    {
+        imagen: "amiata_1.jpg",
+        nombre: "Amiata Ivory"
+    },
+    {   imagen: "amiata_2.jpg",
+        nombre: "Amiata Beige Soft"
+    },
+    {   imagen: "amiata_3.jpg",
+        nombre: "Amiata Light Gray"   
+    },    
+    {   imagen: "amiata_4.jpg",
+        nombre: "Amiata Medium Gray"
+    },
+    {   imagen: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
+        nombre: "Amiata Dark Gray"
+    },  
        ]
     },
 
@@ -222,7 +233,7 @@ const imagenes = [
 
 {   id: "seda",
     nombre: "Seda",
-    archivo: "TC6060A0290_SEDA.png",
+    archivo: "TC6060A0290_SEDA.jpg",
     descripcion: "This cream marble-look porcelain tile perfectly combines the warmth of subtle, natural veining with the ultimate durability of ceramic technology. Designed to bring brightness and classic elegance to both floors and walls, it offers a highly wear-resistant, low-maintenance surface that effortlessly transforms any space into an upscale, welcoming environment.",
      formatos: [
     {
@@ -234,7 +245,7 @@ const imagenes = [
     video: "videos/seda_video.mp4",
     ficha: "pdf/seda_info.pdf",
     renders: [
-        "TC6060A0290_SEDA.png",
+        "TC6060A0290_SEDA.jpg",
         "seda_1.jpg",
         "seda_2.jpg",
        ] 
@@ -242,7 +253,7 @@ const imagenes = [
 
 {   id: "bellagio",
     nombre: "Bellagio",
-    archivo: "TC6060A0550_BELLAGIO.png",
+    archivo: "TC6060A0550_BELLAGIO.jpg",
     descripcion: "Inspired by the exclusivity of natural onyx, Bellagio showcases a delicate sky-blue hue enhanced by subtle white veining and soft warm accents that add depth and sophistication. Its translucent appearance faithfully recreates the beauty of natural stone, making it an ideal choice for contemporary spaces that seek elegance, brightness, and a sense of visual openness.",
     formatos: [
     {
@@ -258,7 +269,7 @@ const imagenes = [
     video: "videos/bellagio_video.mp4",
     ficha: "pdf/bellagio_info.pdf",
      renders: [
-        "TC6060A0550_BELLAGIO.png",
+        "TC6060A0550_BELLAGIO.jpg",
         "bellagio_1.jpg",
         "bellagio_2.jpg",
        ] 
@@ -290,7 +301,7 @@ const imagenes = [
 
 {   id: "zara",
     nombre: "Zara",
-    archivo: "TC6012A0060_ZARA.png",
+    archivo: "TC6012A0060_ZARA.jpg",
     descripcion: "Inspired by the timeless beauty of premium marble, this porcelain tile features a luminous ivory backdrop accented by graceful gray veining that flows effortlessly across the surface. Its clean, understated aesthetic creates a refined atmosphere, making it an excellent choice for interiors that embrace modern luxury, balance, and enduring elegance. Designed to complement both residential and commercial environments, it delivers a sophisticated natural stone appearance with the lasting performance of porcelain.",
      formatos: [
     {
@@ -302,7 +313,7 @@ const imagenes = [
     video: "videos/zara_video.mp4",
     ficha: "pdf/zara_info.pdf",
     renders: [
-        "TC6012A0060_ZARA.png",
+        "TC6012A0060_ZARA.jpg",
         "zara_1.jpg",
         "zara_2.jpg",
        ] 
@@ -310,7 +321,7 @@ const imagenes = [
 
 {   id: "statuario",
     nombre: "Statuario",
-    archivo: "TC6060A0960_STATUARIO.png",
+    archivo: "TC6060A0960_STATUARIO.jpg",
     descripcion: "Defined by its clean and understated aesthetic, this porcelain tile reimagines the elegance of white marble through delicate gray veining that flows naturally across the surface. Its subtle composition creates a sense of calm and balance, making it the perfect foundation for contemporary architectural and interior design projects. Suitable for both residential and commercial spaces, it delivers a refined appearance while providing the exceptional durability and performance of porcelain.", 
     formatos: [
     {
@@ -330,7 +341,7 @@ const imagenes = [
     video: "videos/statuario_video.mp4",
     ficha: "pdf/statuario_info.pdf",
     renders: [
-        "TC6060A0960_STATUARIO.png",
+        "TC6060A0960_STATUARIO.jpg",
         "statuario_1.jpg",
         "statuario_2.jpg",
         "statuario_3.jpg"
@@ -393,7 +404,7 @@ const imagenes = [
 {
     id: "carrara-gold",
     nombre: "Carrara Gold",
-    archivo: "TC6012A0140_CARRARA GOLD_FINAL.png",
+    archivo: "TC6012A0140_CARRARA GOLD_FINAL.jpg",
     descripcion: "The Carrara Gold porcelain tile stands out for its pure white background with golden and gray veins, lending a sophisticated and modern aesthetic to any space and giving it the organic timelessness it deserves. This design offers exceptional visual precision for luxury architectural projects. Available in polished and matte finishes.",
     formatos: [
     {
@@ -414,7 +425,7 @@ const imagenes = [
     video: "videos/carrara_gold.mp4",
     ficha: "pdf/carrara_gold.pdf",
     renders: [
-        "TC6012A0140_CARRARA GOLD_FINAL.png",
+        "TC6012A0140_CARRARA GOLD_FINAL.jpg",
         "carrara_gold.jpg",
         "TC6012A0140_CARRARA GOLD 3D.jpg"
         
@@ -438,7 +449,7 @@ const imagenes = [
     ficha: "pdf/corezzi.pdf",
     renders: [
         "TP6012B4011_COREZZI BEIGE.jpg",
-        "COREZZI_TP6012B4010.png",
+        "COREZZI_TP6012B4010.jpg",
         
        ] 
 },
