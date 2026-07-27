@@ -70,13 +70,16 @@ const imagenes = [
      renders: [
         {
             imagen: "TC6012A0210_GARDENIA.jpg",
+            nombre: "",
         },
         {
             imagen: "gardenia_1.jpg", 
+            nombre: "",
         },
         {
         
             imagen: "gardenia_2.jpg",
+            nombre: ""
         },
        ]
 
@@ -106,9 +109,16 @@ const imagenes = [
     renders: [
         {
         imagen: "TC6012A0320_ASLETH 3D.jpg",
-        imagen: "asleth_1.jpg",
-        imagen:"asleth_2.jpg",
-        imagen: "asleth_3.jpg"
+        nombre: "",
+        },
+        {imagen: "asleth_1.jpg",
+        nombre: "",
+        },
+        {imagen:"asleth_2.jpg",
+        nombre: "",
+        },
+        {imagen: "asleth_3.jpg",
+        nombre: "",
         },
        ]
 },
