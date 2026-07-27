@@ -147,8 +147,15 @@ const imagenes = [
     renders: [
        { imagen: "TC6012A0510_DOZZA ELITE 3D.jpg",
         nombre: "Dozza Elite",
-        imagen: "dozzaelite_1.jpg",
-        imagen:"dozzaelite_2.jpg",
+        },
+       { imagen: "TC6012A0510_DOZZA ELITE 3D.jpg",
+        nombre: "",
+        },
+        {imagen: "dozzaelite_1.jpg",
+            nombre: ""
+            },
+         {imagen:"dozzaelite_2.jpg",
+            nombre: ""
          },
        { imagen: "dozzaelite_3.jpg",
         nombre: "Dozza Elite White"
@@ -177,8 +184,13 @@ const imagenes = [
     renders: [
         {
         imagen: "TC6012A0580_POSITANO 3D.jpg",
-        imagen: "positano_1.jpg",
-        imagen: "positano_2.jpg",
+        nombre: "",
+        },
+       { imagen: "positano_1.jpg",
+        nombre: "",
+        },
+       { imagen: "positano_2.jpg",
+        nombre: "",
         },
        ]
 },
@@ -205,10 +217,19 @@ const imagenes = [
     video: "videos/nevado_video.mp4",
     ficha: "pdf/nevado_info.pdf",
     renders: [
-        "TC6012A0980_NEVADO.jpg",
-        "nevado_1.jpg",
-        "nevado_2.jpg",
-        "nevado_3.jpg"
+        {
+        imagen: "TC6012A0980_NEVADO.jpg",
+        nombre: ""
+        },
+        {imagen: "nevado_1.jpg",
+            nombre: "Nevado"
+        },
+        {imagen: "nevado_2.jpg",
+            nombre: ""
+        },
+        {imagen: "nevado_3.jpg",
+            nombre: ""
+            },
        ]
 },
 
@@ -226,9 +247,15 @@ const imagenes = [
     video: "videos/brescia_video.mp4",
     ficha:"pdf/brescia_info.pdf",
     renders: [
-        "TC6060A0010-brescia.jpg",
-        "brescia_1.jpg",
-        "brescia_2.jpg",
+        {imagen: "TC6060A0010-brescia.jpg",
+            nombre: "White"
+            },
+        {imagen: "brescia_1.jpg",
+            nombre: ""
+            },
+        {imagen: "brescia_2.jpg",
+            nombre: ""
+            },
        ]
 },
 
@@ -254,9 +281,15 @@ const imagenes = [
     video: "videos/perla_video.mp4",
     ficha: "pdf/perla_info.pdf",
      renders: [
-        "TC6060A0120-perla.jpg",
-        "perla_1.jpg",
-        "perla_2.jpg",
+        {imagen: "TC6060A0120-perla.jpg",
+            nombre: "White"
+        },
+        {imagen: "perla_1.jpg",
+            nombre: ""
+        },
+        {imagen: "perla_2.jpg",
+            nombre: ""
+        },
        ] 
 },
 
@@ -274,9 +307,15 @@ const imagenes = [
     video: "videos/seda_video.mp4",
     ficha: "pdf/seda_info.pdf",
     renders: [
-        "TC6060A0290_SEDA.jpg",
-        "seda_1.jpg",
-        "seda_2.jpg",
+       {imagen: "TC6060A0290_SEDA.jpg",
+        nombre: "Beige"
+        },
+       {imagen: "seda_1.jpg",
+        nombre: ""
+        },
+       {imagen: "seda_2.jpg",
+        nombre: ""
+        },
        ] 
 },
 
@@ -298,9 +337,15 @@ const imagenes = [
     video: "videos/bellagio_video.mp4",
     ficha: "pdf/bellagio_info.pdf",
      renders: [
-        "TC6060A0550_BELLAGIO.jpg",
-        "bellagio_1.jpg",
-        "bellagio_2.jpg",
+        {imagen: "TC6060A0550_BELLAGIO.jpg",
+            nombre: "Blue"
+            },
+        {imagen: "bellagio_1.jpg",
+            nombre: ""
+            },
+        {imagen: "bellagio_2.jpg",
+            nombre: ""
+            },
        ] 
 },
 
@@ -379,9 +424,8 @@ const imagenes = [
     
 },
 
-{   
-    id: "marquis",
-    nombre: "Marquis Beige Soft",
+{   id: "marquis",
+    nombre: "Marquis",
     archivo: "TP6012A0081_MARQUIS BEIGE SOFT_FINAL.jpg",
     descripcion: "Inspired by the understated beauty of natural limestone, this porcelain tile features a soft light gray tone and a subtle textured surface that delivers an authentic, contemporary look. Its minimalist design provides a refined and versatile foundation, making it ideal for spaces that emphasize brightness, openness, and harmony. Suitable for both residential and commercial applications, it combines timeless aesthetics with the durability and performance of porcelain.",
     formatos: [
@@ -402,8 +446,7 @@ const imagenes = [
        ] 
 },
 
-{
-    id: "arcadia",
+{   id: "arcadia",
     nombre: "Arcadia",
     archivo: "TP6012A0200_ARCADIA BEIGE 3D.jpg",
     descripcion: "This porcelain tile captures the serene elegance of natural travertine in a contemporary interpretation, featuring soft linear veining and delicate tonal variations in light beige and ivory hues. Its natural-looking design adds subtle depth and texture, creating bright, warm, and visually harmonious spaces.",
@@ -430,8 +473,7 @@ const imagenes = [
        ] 
 },
 
-{
-    id: "carrara-gold",
+{   id: "carrara-gold",
     nombre: "Carrara Gold",
     archivo: "TC6012A0140_CARRARA GOLD_FINAL.jpg",
     descripcion: "The Carrara Gold porcelain tile stands out for its pure white background with golden and gray veins, lending a sophisticated and modern aesthetic to any space and giving it the organic timelessness it deserves. This design offers exceptional visual precision for luxury architectural projects. Available in polished and matte finishes.",
@@ -461,8 +503,7 @@ const imagenes = [
        ] 
 },
 
-{
-    id: "corezzi-beige",
+{   id: "corezzi-beige",
     nombre: "Corezzi Beige",
     archivo: "TP6012B4011_COREZZI BEIGE.jpg",
     descripcion: "Inspired by the beauty of natural marble, it is designed to create warm, bright, and sophisticated spaces. Its delicate beige and ivory veining adds depth and harmony, delivering a refined aesthetic that seamlessly complements both residential and commercial projects.",
@@ -483,8 +524,7 @@ const imagenes = [
        ] 
 },
 
-{
-    id: "olmec-beige",
+{   id: "olmec-beige",
 
     nombre: "Olmec",
     archivo: "TA3060A0180_OLMEC BEIGE.jpg",
@@ -520,16 +560,14 @@ const imagenes = [
 
 
 
-
-{
-    id: "husen",
+{   id: "husen",
     nombre: "Husen",
     archivo: "TT2012B4210_HUSEN.jpg",
     descripcion: "The warmth of natural wood combines with the durability of our high-quality porcelain tile in a 8 x 48 in format. With highly realistic grain patterns and a timeless aesthetic, this tile strikes the perfect balance between comfort, luxury, and durability for any architectural space. It is designed to offer the tactile and visual beauty of natural wood while ensuring the technical superiority and durability characteristic of the material.",
      formatos: [
     {
-        ancho: 20,
-        alto: 120
+        ancho: 120,
+        alto: 20
     }
 ],
     acabado: "Matte",
@@ -544,11 +582,7 @@ const imagenes = [
 
 
 
-
-
-{
-
-    id: "laurent-gold",
+{   id: "laurent-gold",
 
     nombre: "Laurent Gold",
 
@@ -584,21 +618,31 @@ const imagenes = [
 
 const galeria = document.getElementById("galeria");
 
-imagenes.forEach((imagen, indice) => {
+function mostrarGaleria(lista){
 
-    galeria.innerHTML += `
+    galeria.innerHTML = "";
 
-        <div class="card" onclick="abrirImagen(${indice})">
+    lista.forEach(imagen => {
 
-            <img src="images/${imagen.archivo}" alt="${imagen.nombre}">
+        const indice = imagenes.findIndex(p => p.id === imagen.id);
 
-            <h3>${imagen.nombre}</h3>
+        galeria.innerHTML += `
 
-        </div>
+            <div class="card" onclick="abrirImagen(${indice})">
 
-    `;
+                <img src="images/${imagen.archivo}" alt="${imagen.nombre}">
 
-});
+                <h3>${imagen.nombre}</h3>
+
+            </div>
+
+        `;
+
+    });
+
+}
+
+mostrarGaleria(imagenes);
 
 function abrirImagen(indice){
 
@@ -611,10 +655,27 @@ function abrirImagen(indice){
 
 }
 
-document.getElementById("cerrar").onclick = function(){
+const buscar = document.getElementById("buscar");
 
-    document.getElementById("lightbox").style.display = "none";
+buscar.addEventListener("input", function () {
 
-}
+    const texto = this.value.toLowerCase().trim();
 
+    const resultados = imagenes.filter(producto => {
 
+        const formatos = producto.formatos
+            .map(f => `${f.ancho}x${f.alto}`)
+            .join(" ");
+
+        return (
+            producto.nombre.toLowerCase().includes(texto) ||
+            producto.descripcion.toLowerCase().includes(texto) ||
+            producto.acabado.toLowerCase().includes(texto) ||
+            formatos.includes(texto)
+        );
+
+    });
+
+    mostrarGaleria(resultados);
+
+});
