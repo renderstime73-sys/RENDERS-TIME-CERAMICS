@@ -687,3 +687,36 @@ ul{
     font-size:18px;
 
 }
+
+/*==========================
+MENU
+==========================*/
+
+.menu{
+
+    display:flex;
+    align-items:center;
+    gap:35px;
+
+}
+
+.menu a{
+
+    color:#bdbdbd;
+    font-size:15px;
+    letter-spacing:1px;
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    color:#fff;
+
+}
+
+.menu a.activo{
+
+    color:#fff;
+
+}

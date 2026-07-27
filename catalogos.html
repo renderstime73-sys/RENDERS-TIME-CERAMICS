@@ -6,19 +6,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TIME CERAMICS | CATALOG</title>
+<title>TIME CERAMICS | Catalogs</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body>
+<body class="producto-page">
 
 <header class="topbar">
 
@@ -46,30 +45,57 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
     </nav>
 
-    <input
-        type="text"
-        id="buscar"
-        placeholder="Search products...">
-
 </header>
 
-<section class="hero">
+<section class="catalogos-hero">
 
-    <h2>PORCELAIN TILE COLLECTION</h2>
+    <h1>CATALOGS</h1>
 
     <p>
-        Design for architecture, interior design, and contemporary spaces.
+        Explore our complete porcelain collections.
     </p>
 
 </section>
 
-<main>
+<section class="catalogos-grid">
 
-    <div id="galeria" class="galeria"></div>
+    <div class="catalogo-card">
 
-</main>
+        <img src="images/catalogo-general.jpg">
 
-<script src="script.js"></script>
+        <div class="catalogo-info">
+
+            <h2>GENERAL COLLECTION</h2>
+
+            <p>
+                Complete porcelain collection.
+            </p>
+
+            <div class="catalogo-botones">
+
+                <a href="pdf/general_catalog.pdf"
+                   target="_blank"
+                   class="btn-outline">
+
+                    View Online
+
+                </a>
+
+                <a href="pdf/general_catalog.pdf"
+                   download
+                   class="btn-outline">
+
+                    Download PDF
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 <footer class="footer" id="footer">
 
@@ -93,26 +119,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         </div>
 
         <div class="footer-col">
+            <h3>FOLLOW US</h3>
 
-    <h3>FOLLOW US</h3>
+            <a href="https://www.facebook.com/timeceramics" target="_blank">Facebook</a><br>
+            <a href="https://www.instagram.com/timeceramics/" target="_blank">Instagram</a>
 
-    <a href="https://www.facebook.com/p/Time-Ceramics-M%C3%A9xico-61569628426588/"
-       target="_blank">
-
-        <i class="fab fa-facebook-f"></i>
-        Facebook
-
-    </a>
-
-    <a href="https://www.instagram.com/time.ceramics/?hl=es"
-       target="_blank">
-
-        <i class="fab fa-instagram"></i>
-        Instagram
-
-    </a>
-
-</div>
+        </div>
 
     </div>
 
@@ -123,5 +135,4 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 </footer>
 
 </body>
-
 </html>
