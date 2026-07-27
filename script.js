@@ -69,9 +69,14 @@ const imagenes = [
     ficha: "pdf/gardenia_info.pdf",
      renders: [
         {
-        imagen: "TC6012A0210_GARDENIA.jpg",
-        imagen: "gardenia_1.jpg",
-        imagen: "gardenia_2.jpg",
+            imagen: "TC6012A0210_GARDENIA.jpg",
+        },
+        {
+            imagen: "gardenia_1.jpg", 
+        },
+        {
+        
+            imagen: "gardenia_2.jpg",
         },
        ]
 
