@@ -24,7 +24,8 @@ const imagenes = [
     renders: [
     {
         imagen: "amiata_1.jpg",
-        nombre: "Amiata Ivory"
+        nombre: "Amiata Ivory",
+        imagen: "amiata_1_texture.jpg",
     },
     {   imagen: "amiata_2.jpg",
         nombre: "Amiata Beige Soft"
@@ -35,7 +36,7 @@ const imagenes = [
     {   imagen: "amiata_4.jpg",
         nombre: "Amiata Medium Gray"
     },
-    {   imagen: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
+    {   imagen: "TP6012B0034_| GRIS OSCURO 3D.jpg",
         nombre: "Amiata Dark Gray"
     },  
        ]
@@ -64,9 +65,11 @@ const imagenes = [
     video: "videos/gardenia_video.mp4",
     ficha: "pdf/gardenia_info.pdf",
      renders: [
-        "TC6012A0210_GARDENIA.jpg",
-        "gardenia_1.jpg",
-        "gardenia_2.jpg",
+        {
+        imagen: "TC6012A0210_GARDENIA.jpg",
+        imagen: "gardenia_1.jpg",
+        imagen: "gardenia_2.jpg",
+        },
        ]
 
 },
@@ -93,10 +96,12 @@ const imagenes = [
     video: "videos/asleth_video.mp4",
     ficha: "pdf/asleth_info.pdf",
     renders: [
-        "TC6012A0320_ASLETH 3D.jpg",
-        "asleth_1.jpg",
-        "asleth_2.jpg",
-        "asleth_3.jpg"
+        {
+        imagen: "TC6012A0320_ASLETH 3D.jpg",
+        imagen: "asleth_1.jpg",
+        imagen:"asleth_2.jpg",
+        imagen: "asleth_3.jpg"
+        },
        ]
 },
 
@@ -122,10 +127,14 @@ const imagenes = [
     video: "videos/dozza_video.mp4",
     ficha: "pdf/dozza_info.pdf",
     renders: [
-        "TC6012A0510_DOZZA ELITE 3D.jpg",
-        "dozzaelite_1.jpg",
-        "dozzaelite_2.jpg",
-        "dozzaelite_3.jpg"
+       { imagen: "TC6012A0510_DOZZA ELITE 3D.jpg",
+        nombre: "Dozza Elite",
+        imagen: "dozzaelite_1.jpg",
+        imagen:"dozzaelite_2.jpg",
+         },
+       { imagen: "dozzaelite_3.jpg",
+        nombre: "Dozza Elite White"
+        },
        ]
 },
 
@@ -148,9 +157,11 @@ const imagenes = [
     recorrido: "https://kuula.co/share/collection/7DjdW?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
     ficha: "pdf/positano_info.pdf",
     renders: [
-        "TC6012A0580_POSITANO 3D.jpg",
-        "positano_1.jpg",
-        "positano_2.jpg",
+        {
+        imagen: "TC6012A0580_POSITANO 3D.jpg",
+        imagen: "positano_1.jpg",
+        imagen: "positano_2.jpg",
+        },
        ]
 },
 
