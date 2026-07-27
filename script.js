@@ -24,20 +24,23 @@ const imagenes = [
     renders: [
     {
         imagen: "amiata_1.jpg",
-        nombre: "Amiata Ivory",
+        nombre: "Ivory",
+    },
+    {
         imagen: "amiata_1_texture.jpg",
+        nombre: "",
     },
     {   imagen: "amiata_2.jpg",
-        nombre: "Amiata Beige Soft"
+        nombre: "Beige Soft"
     },
     {   imagen: "amiata_3.jpg",
-        nombre: "Amiata Light Gray"   
+        nombre: "Light Gray"   
     },    
     {   imagen: "amiata_4.jpg",
-        nombre: "Amiata Medium Gray"
+        nombre: "Medium Gray"
     },
-    {   imagen: "TP6012B0034_| GRIS OSCURO 3D.jpg",
-        nombre: "Amiata Dark Gray"
+    {   imagen: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
+        nombre: "Dark Gray"
     },  
        ]
     },
