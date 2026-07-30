@@ -70,7 +70,7 @@ const imagenes = [
      renders: [
         {
             imagen: "TC6012A0210_GARDENIA.jpg",
-            nombre: "",
+            nombre: "Beige",
         },
         {
             imagen: "gardenia_1.jpg", 
@@ -109,7 +109,7 @@ const imagenes = [
     renders: [
         {
         imagen: "TC6012A0320_ASLETH 3D.jpg",
-        nombre: "",
+        nombre: "Beige",
         },
         {imagen: "asleth_1.jpg",
         nombre: "",
@@ -146,7 +146,7 @@ const imagenes = [
     ficha: "pdf/dozza_info.pdf",
     renders: [
        { imagen: "TC6012A0510_DOZZA ELITE 3D.jpg",
-        nombre: "Dozza Elite",
+        nombre: "Beige",
         },
        { imagen: "TC6012A0510_DOZZA ELITE 3D.jpg",
         nombre: "",
@@ -158,7 +158,7 @@ const imagenes = [
             nombre: ""
          },
        { imagen: "dozzaelite_3.jpg",
-        nombre: "Dozza Elite White"
+        nombre: "White"
         },
        ]
 },
@@ -184,7 +184,7 @@ const imagenes = [
     renders: [
         {
         imagen: "TC6012A0580_POSITANO 3D.jpg",
-        nombre: "",
+        nombre: "Beige",
         },
        { imagen: "positano_1.jpg",
         nombre: "",
@@ -219,10 +219,10 @@ const imagenes = [
     renders: [
         {
         imagen: "TC6012A0980_NEVADO.jpg",
-        nombre: ""
+        nombre: "White"
         },
         {imagen: "nevado_1.jpg",
-            nombre: "Nevado"
+            nombre: ""
         },
         {imagen: "nevado_2.jpg",
             nombre: ""
@@ -367,9 +367,12 @@ const imagenes = [
     video: "videos/paraty_video.mp4",
     ficha: "pdf/paraty_info.pdf",
     renders: [
-        "TC6060A0950-PARATY.jpg",
-        "paraty_1.jpg",
-        "paraty_2.jpg",
+        {imagen: "TC6060A0950-PARATY.jpg",
+            nombre: "Gold"},
+        {imagen: "paraty_1.jpg",
+            nombre: ""},
+        {imagen: "paraty_2.jpg",
+            nombre: ""},
        ] 
 },
 
@@ -387,9 +390,12 @@ const imagenes = [
     video: "videos/zara_video.mp4",
     ficha: "pdf/zara_info.pdf",
     renders: [
-        "TC6012A0060_ZARA.jpg",
-        "zara_1.jpg",
-        "zara_2.jpg",
+        {imagen: "TC6012A0060_ZARA.jpg",
+            nombre: "White"},
+        {imagen: "zara_1.jpg",
+            nombre: ""},
+        {imagen: "zara_2.jpg",
+            nombre: ""},
        ] 
 },
 
@@ -415,10 +421,14 @@ const imagenes = [
     video: "videos/statuario_video.mp4",
     ficha: "pdf/statuario_info.pdf",
     renders: [
-        "TC6060A0960_STATUARIO.jpg",
-        "statuario_1.jpg",
-        "statuario_2.jpg",
-        "statuario_3.jpg"
+        {imagen: "TC6060A0960_STATUARIO.jpg",
+            nombre: "White"},
+        {imagen: "statuario_1.jpg",
+            nombre: ""},
+        {imagen: "statuario_2.jpg",
+            nombre: ""},
+        {imagen: "statuario_3.jpg",
+            nombre: ""},
         
        ] 
     
@@ -438,10 +448,15 @@ const imagenes = [
     video: "videos/marquis_video.mp4",
     ficha: "pdf/marquis_info.pdf",
     renders: [
-        "TP6012A0081_MARQUIS BEIGE SOFT_FINAL.jpg",
-        "marquis_1.jpg",
-        "marquis_2.jpg",
-        "marquis_3.jpg"
+        {imagen: "marquis_3.jpg",
+            nombre: "Ice"},
+        {imagen: "TP6012A0081_MARQUIS BEIGE SOFT_FINAL.jpg",
+            nombre: "Beige Soft"},
+        {imagen: "marquis_1.jpg",
+            nombre: "Light Gray"},
+        {imagen: "marquis_2.jpg",
+            nombre:  "Medium Gray"},
+        
         
        ] 
 },
@@ -465,10 +480,16 @@ const imagenes = [
     video: "videos/arcadia_video.mp4",
     ficha: "pdf/arcadia_info.pdf",
     renders: [
-        "TP6012A0200_ARCADIA BEIGE 3D.jpg",
-        "arcadia_1.jpg",
-        "arcadia_2.jpg",
-        "arcadia_3.jpg"
+        {imagen: "TP6012A0200_ARCADIA BEIGE 3D.jpg",
+            nombre: "Beige"},
+            {imagen: "arcadia_2.jpg",
+            nombre: "Beige"},
+        {imagen: "arcadia_1.jpg",
+            nombre: "Medium Gray"},
+             {imagen: "arcadia_3.jpg",
+            nombre: "Light Gray"},
+        
+       
         
        ] 
 },
@@ -496,9 +517,12 @@ const imagenes = [
     video: "videos/carrara_gold.mp4",
     ficha: "pdf/carrara_gold.pdf",
     renders: [
-        "TC6012A0140_CARRARA GOLD_FINAL.jpg",
-        "carrara_gold.jpg",
-        "TC6012A0140_CARRARA GOLD 3D.jpg"
+       {imagen: "TC6012A0140_CARRARA GOLD_FINAL.jpg",
+        nombre: "Gold"},
+       {imagen: "carrara_gold.jpg",
+        nombre: ""},
+       {imagen: "TC6012A0140_CARRARA GOLD 3D.jpg",
+        nombre: ""},
         
        ] 
 },
@@ -518,8 +542,10 @@ const imagenes = [
     video: "videos/corezzi.mp4",
     ficha: "pdf/corezzi.pdf",
     renders: [
-        "TP6012B4011_COREZZI BEIGE.jpg",
-        "COREZZI_TP6012B4010.jpg",
+        {imagen: "TP6012B4011_COREZZI BEIGE.jpg",
+            nombre: "Beige"},
+        {imagen: "COREZZI_TP6012B4010.jpg",
+            nombre: "Gray"}
         
        ] 
 },
@@ -574,8 +600,10 @@ const imagenes = [
     video: "videos/HUSEN_2.mp4",
     ficha: "pdf/husen.pdf",
     renders: [
-        "TT2012B4210_HUSEN.jpg",
-        "HUSEN_1.png",
+        {imagen: "TT2012B4210_HUSEN.jpg",
+            nombre: "Husen"},
+        {imagen: "HUSEN_1.png",
+            nombre: ""}
 
         ]
 },
@@ -605,9 +633,16 @@ const imagenes = [
     ficha: "pdf/Laurent-Gold.pdf",
 
     renders: [
-        "TW6012C0652_LAURENT GOLD 3D.jpg",
-        "laurent2.jpg",
-        "laurent3.jpg"
+
+        {imagen: "TW6012C0652_LAURENT GOLD 3D.jpg",
+            nombre: "Gold"
+            },
+        {imagen: "laurent2.jpg",
+            nombre: "",
+            },
+        {imagen: "laurent3.jpg",
+            nombre: ""
+            }
     ]
 }
 
