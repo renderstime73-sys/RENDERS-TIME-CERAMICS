@@ -82,3 +82,38 @@ if(producto.recorrido){
     document.getElementById("tour360").style.display = "none";
 
 }
+
+
+// ===============================
+// APPLICATIONS
+// ===============================
+
+const iconos = {
+    "Residential": "fa-house",
+    "Commercial": "fa-building",
+    "Floor": "fa-border-all",
+    "Wall": "fa-grip-lines-vertical",
+    "Bathroom": "fa-bath",
+    "Kitchen": "fa-utensils",
+    "Living Room": "fa-couch",
+    "Bedroom": "fa-bed",
+    "Outdoor": "fa-tree",
+    "Terrace": "fa-mountain-sun"
+};
+
+const applications = document.getElementById("applications");
+
+if(producto.aplicaciones){
+
+    producto.aplicaciones.forEach(app=>{
+
+        applications.innerHTML += `
+            <div class="app-item">
+                <i class="fa-solid ${iconos[app]}"></i>
+                <span>${app}</span>
+            </div>
+        `;
+
+    });
+
+}
