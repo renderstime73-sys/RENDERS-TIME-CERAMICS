@@ -1061,3 +1061,65 @@ CATALOGS
     transform:translateY(-2px);
 
 }
+
+
+/*====================================
+APPLICATIONS
+====================================*/
+
+.applications{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+
+}
+
+.app-item{
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:14px;
+
+    padding:24px 18px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:10px;
+
+    transition:.35s;
+
+}
+
+.app-item:hover{
+
+    transform:translateY(-5px);
+
+    border-color:#c8a96b;
+
+    background:rgba(255,255,255,.02);
+
+}
+
+.app-item i{
+
+    font-size:30px;
+
+    color:#c8a96b;
+
+}
+
+.app-item span{
+
+    color:#d9d9d9;
+
+    font-size:15px;
+
+    text-align:center;
+
+}

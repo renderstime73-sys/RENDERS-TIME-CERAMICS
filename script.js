@@ -148,9 +148,6 @@ const imagenes = [
        { imagen: "TC6012A0510_DOZZA ELITE 3D.jpg",
         nombre: "Beige",
         },
-       { imagen: "TC6012A0510_DOZZA ELITE 3D.jpg",
-        nombre: "",
-        },
         {imagen: "dozzaelite_1.jpg",
             nombre: ""
             },
@@ -192,7 +189,17 @@ const imagenes = [
        { imagen: "positano_2.jpg",
         nombre: "",
         },
-       ]
+       ],
+
+       aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room"
+],
 },
 
 {   id: "nevado",
@@ -528,7 +535,7 @@ const imagenes = [
 },
 
 {   id: "corezzi-beige",
-    nombre: "Corezzi Beige",
+    nombre: "Corezzi",
     archivo: "TP6012B4011_COREZZI BEIGE.jpg",
     descripcion: "Inspired by the beauty of natural marble, it is designed to create warm, bright, and sophisticated spaces. Its delicate beige and ivory veining adds depth and harmony, delivering a refined aesthetic that seamlessly complements both residential and commercial projects.",
     formatos: [
