@@ -1431,3 +1431,98 @@ WHY CHOOSE US
     font-size:17px;
 
 }
+
+
+/*==============================
+COMPANY IN NUMBERS
+==============================*/
+
+.stats-section{
+
+    max-width:1500px;
+
+    margin:180px auto;
+
+    padding:0 8%;
+
+    text-align:center;
+
+}
+
+.stats-header span{
+
+    color:#c8a76b;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    font-size:12px;
+
+}
+
+.stats-header h2{
+
+    font-size:64px;
+
+    font-weight:300;
+
+    color:white;
+
+    margin:20px 0 90px;
+
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:40px;
+
+}
+
+.stat-card{
+
+    padding:50px 20px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    background:#111;
+
+    transition:.35s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#c8a76b;
+
+}
+
+.stat-card h3{
+
+    font-size:78px;
+
+    font-weight:300;
+
+    color:#c8a76b;
+
+    margin-bottom:15px;
+
+}
+
+.stat-card p{
+
+    color:#bfbfbf;
+
+    font-size:18px;
+
+    letter-spacing:1px;
+
+}
