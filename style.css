@@ -1123,3 +1123,89 @@ APPLICATIONS
     text-align:center;
 
 }
+
+
+
+/*====================================
+ABOUT US - HERO
+====================================*/
+
+.hero-about{
+
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.55)),
+    url("images/about-hero.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.hero-about-content{
+
+    max-width:900px;
+    padding:40px;
+
+}
+
+.hero-label{
+
+    display:inline-block;
+
+    letter-spacing:4px;
+
+    color:#c8c8c8;
+
+    font-size:14px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-about h1{
+
+    font-size:82px;
+
+    font-weight:200;
+
+    letter-spacing:8px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-about h2{
+
+    font-size:38px;
+
+    font-weight:300;
+
+    line-height:1.4;
+
+    margin-bottom:30px;
+
+}
+
+.hero-about p{
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#dddddd;
+
+    max-width:700px;
+
+    margin:auto auto 45px;
+
+}
