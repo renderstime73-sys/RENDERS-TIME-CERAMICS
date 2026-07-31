@@ -1260,3 +1260,64 @@ ABOUT US - HERO
     margin-bottom:25px;
 
 }
+
+
+/*==========================
+MISSION & VISION
+==========================*/
+
+.mission-section{
+
+    max-width:1400px;
+    margin:140px auto;
+    padding:0 8%;
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:70px;
+
+}
+
+.mission-card{
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+    padding-top:40px;
+
+}
+
+.small-title{
+
+    color:#c8a76b;
+
+    letter-spacing:4px;
+
+    font-size:12px;
+
+    text-transform:uppercase;
+
+}
+
+.mission-card h2{
+
+    font-size:48px;
+
+    font-weight:300;
+
+    margin:18px 0 30px;
+
+    color:white;
+
+}
+
+.mission-card p{
+
+    color:#b8b8b8;
+
+    font-size:19px;
+
+    line-height:2;
+
+    max-width:520px;
+
+}
