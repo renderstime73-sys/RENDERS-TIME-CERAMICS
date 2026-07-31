@@ -1321,3 +1321,113 @@ MISSION & VISION
     max-width:520px;
 
 }
+
+/*==========================
+WHY CHOOSE US
+==========================*/
+
+.why-section{
+
+    max-width:1400px;
+
+    margin:160px auto;
+
+    padding:0 8%;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:80px;
+
+}
+
+.section-title span{
+
+    color:#c8a76b;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    font-size:12px;
+
+}
+
+.section-title h2{
+
+    font-size:62px;
+
+    font-weight:300;
+
+    margin-top:20px;
+
+    color:white;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:35px;
+
+}
+
+.why-card{
+
+    background:#111;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:45px 35px;
+
+    transition:.35s;
+
+}
+
+.why-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#c8a76b;
+
+}
+
+.why-card i{
+
+    font-size:42px;
+
+    color:#c8a76b;
+
+    margin-bottom:25px;
+
+}
+
+.why-card h3{
+
+    color:white;
+
+    font-size:26px;
+
+    font-weight:400;
+
+    margin-bottom:18px;
+
+}
+
+.why-card p{
+
+    color:#b8b8b8;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
