@@ -419,10 +419,7 @@ const imagenes = [
         ancho: 60,
         alto: 60
     },
-     {
-        ancho: 60,
-        alto: 30
-    },
+    
     ],
     acabado: "Polished & Matte",
     video: "videos/statuario_video.mp4",
@@ -569,8 +566,8 @@ const imagenes = [
         alto: 120
     },
       {
-        ancho: 30,
-        alto: 60
+        ancho: 60,
+        alto: 30
     }
     ],
 
