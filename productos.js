@@ -423,6 +423,7 @@ const imagenes = [
     ],
     acabado: "Polished & Matte",
     video: "videos/statuario_video.mp4",
+    recorrido: "https://kuula.co/share/collection/7DrdF?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1",
     ficha: "pdf/statuario_info.pdf",
     renders: [
         {imagen: "TC6060A0960_STATUARIO.jpg",
