@@ -546,7 +546,7 @@ const imagenes = [
       
     ],
     acabado: "Matte",
-    video: "videos/corezzi.mp4",
+    video: "videos/corezzi_video.mp4",
     ficha: "pdf/corezzi.pdf",
     renders: [
         {imagen: "TP6012B4011_COREZZI BEIGE.jpg",
