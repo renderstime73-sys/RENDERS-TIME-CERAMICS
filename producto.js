@@ -1,6 +1,8 @@
-const producto = JSON.parse(
-    localStorage.getItem("productoSeleccionado")
-);
+const parametros = new URLSearchParams(window.location.search);
+
+const id = parametros.get("id");
+
+const producto = imagenes.find(p => p.id === id);
 
 document.getElementById("nombre").textContent =
 producto.nombre;
