@@ -42,7 +42,16 @@ const imagenes = [
     {   imagen: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
         nombre: "Dark Gray"
     },  
-       ]
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Outdoor",
+    "Terrace"
+],
     },
 
 
@@ -81,7 +90,19 @@ const imagenes = [
             imagen: "gardenia_2.jpg",
             nombre: ""
         },
-       ]
+       ],
+
+        aplicaciones: [
+    "Residential",
+    "Floor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Outdoor"
+
+],
+       
 
 },
 
@@ -120,7 +141,17 @@ const imagenes = [
         {imagen: "asleth_3.jpg",
         nombre: "",
         },
-       ]
+       ],
+
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Outdoor"
+],
 },
 
 {   id: "dozza-elite",
@@ -157,7 +188,17 @@ const imagenes = [
        { imagen: "dozzaelite_3.jpg",
         nombre: "White"
         },
-       ]
+         ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Terrace"
+],
 },
 
 {   id: "positano",
@@ -237,7 +278,16 @@ const imagenes = [
         {imagen: "nevado_3.jpg",
             nombre: ""
             },
-       ]
+         ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+
+],
 },
 
 {   id: "brescia",
@@ -263,7 +313,16 @@ const imagenes = [
         {imagen: "brescia_2.jpg",
             nombre: ""
             },
-       ]
+         ],
+        aplicaciones: [
+    "Floor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Outdoor",
+
+],
 },
 
 {   id: "perla",
@@ -297,7 +356,15 @@ const imagenes = [
         {imagen: "perla_2.jpg",
             nombre: ""
         },
-       ] 
+         ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Bathroom",
+    "Kitchen",
+    "Living Room"
+],
 },
 
 {   id: "seda",
@@ -323,7 +390,15 @@ const imagenes = [
        {imagen: "seda_2.jpg",
         nombre: ""
         },
-       ] 
+         ],
+        aplicaciones: [
+    "Residential",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Bedroom"
+],
 },
 
 {   id: "bellagio",
@@ -353,7 +428,15 @@ const imagenes = [
         {imagen: "bellagio_2.jpg",
             nombre: ""
             },
-       ] 
+         ],
+        aplicaciones: [
+    "Floor",
+    "Wall",
+    "Residential",
+    "Bathroom",
+    "Kitchen",
+
+],
 },
 
 {   id: "paraty",
@@ -380,7 +463,15 @@ const imagenes = [
             nombre: ""},
         {imagen: "paraty_2.jpg",
             nombre: ""},
-       ] 
+         ],
+        aplicaciones: [
+    "Residential",
+    "Wall",
+    "Commercial",
+    "Bathroom",
+    "Kitchen",
+    "Living Room"
+],
 },
 
 {   id: "zara",
@@ -403,7 +494,14 @@ const imagenes = [
             nombre: ""},
         {imagen: "zara_2.jpg",
             nombre: ""},
-       ] 
+         ],
+        aplicaciones: [
+    "Residential",
+    "Floor",
+    "Commercial",
+    "Bathroom",
+    "Living Room",
+],
 },
 
 {   id: "statuario",
@@ -435,7 +533,18 @@ const imagenes = [
         {imagen: "statuario_3.jpg",
             nombre: ""},
         
-       ] 
+         ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Flor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Bedroom",
+    "Outdoor",
+],
     
 },
 
@@ -461,9 +570,15 @@ const imagenes = [
             nombre: "Light Gray"},
         {imagen: "marquis_2.jpg",
             nombre:  "Medium Gray"},
+               ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Bathroom",
+    "Living Room",
+    "Terrace",
+],
         
-        
-       ] 
 },
 
 {   id: "arcadia",
@@ -494,9 +609,16 @@ const imagenes = [
              {imagen: "arcadia_3.jpg",
             nombre: "Light Gray"},
         
-       
-        
-       ] 
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Flor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Outdoor",
+],
 },
 
 {   id: "carrara-gold",
@@ -528,8 +650,18 @@ const imagenes = [
         nombre: ""},
        {imagen: "TC6012A0140_CARRARA GOLD 3D.jpg",
         nombre: ""},
-        
-       ] 
+           ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Flor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Bedroom",
+    "Outdoor",
+],
 },
 
 {   id: "corezzi-beige",
@@ -551,8 +683,16 @@ const imagenes = [
             nombre: "Beige"},
         {imagen: "COREZZI_TP6012B4010.jpg",
             nombre: "Gray"}
-        
-       ] 
+           ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Flor",
+    "Wall",
+    "Living Room",
+    "Outdoor",
+    "Terrace"
+],
 },
 
 {   id: "olmec-beige",
@@ -586,7 +726,16 @@ const imagenes = [
         {imagen: "UP6012A0181_OLMEC GRIS CLARO 3D.jpg",
         nombre: "Olmec Gris Medio"
         },
-       ] 
+          ],
+        aplicaciones: [
+    "Commercial",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Outdoor",
+    "Terrace"
+],
 },
 
 
@@ -609,8 +758,15 @@ const imagenes = [
             nombre: "Husen"},
         {imagen: "HUSEN_1.png",
             nombre: ""}
-
-        ]
+           ],
+        aplicaciones: [
+    "Flor",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Bedroom",
+    "Outdoor",
+],
 },
 
 
@@ -648,7 +804,17 @@ const imagenes = [
         {imagen: "laurent3.jpg",
             nombre: ""
             }
-    ]
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Flor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Bedroom",
+],
 }
 
 
