@@ -1,4 +1,28 @@
 
+const collectionsGrid = document.getElementById("collectionsGrid");
+
+collections.forEach(collection=>{
+
+    collectionsGrid.innerHTML += `
+
+    <div class="collection-card">
+
+        <img src="${collection.imagen}">
+
+        <div class="collection-content">
+
+            <h3>${collection.nombre}</h3>
+
+            <p>${collection.descripcion}</p>
+
+        </div>
+
+    </div>
+
+    `;
+
+});
+
 
 
 const galeria = document.getElementById("galeria");
