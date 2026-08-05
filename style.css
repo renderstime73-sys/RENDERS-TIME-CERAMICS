@@ -1380,7 +1380,7 @@ WHY CHOOSE US
 
 .why-card{
 
-    background:#c8a76b;
+    background:#3b3b3b;
 
     border:1px solid rgba(255,255,255,.08);
 
@@ -1424,7 +1424,7 @@ WHY CHOOSE US
 
 .why-card p{
 
-    color:#b8b8b8;
+    color:#ffffff;
 
     line-height:1.9;
 
@@ -1802,5 +1802,98 @@ DESIGN GALLERY
     border-color:#b89c5d;
 
     box-shadow:0 20px 50px rgba(0,0,0,.45);
+
+}
+
+
+
+/*=========================================
+ABOUT HOME
+=========================================*/
+
+.about-home{
+
+    padding:120px 0;
+
+    background:#ffffff;
+
+}
+
+.about-home .container{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    text-align:center;
+
+    padding:0 40px;
+
+}
+
+.about-home h2{
+
+    font-size:52px;
+
+    font-weight:300;
+
+    letter-spacing:2px;
+
+    margin-bottom:30px;
+
+    color:#111;
+
+}
+
+.about-home p{
+
+    font-size:21px;
+
+    line-height:2;
+
+    color:#666;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+
+/*=========================================
+COLLECTIONS
+=========================================*/
+
+.collections-home{
+
+    padding:120px 40px;
+
+    background:#f7f7f7;
+
+}
+
+.collections-home h2{
+
+    font-size:44px;
+
+    font-weight:300;
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+#collectionsGrid{
+
+    max-width:1500px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
 
 }
