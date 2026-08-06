@@ -786,7 +786,7 @@ const imagenes = [
 {   id: "husen",
     nombre: "Husen",
     collection: "Wood Tiles",
-    effect: "Matte",
+    effect: "Wood",
     archivo: "TT2012B4210_HUSEN.jpg",
     descripcion: "The warmth of natural wood combines with the durability of our high-quality porcelain tile in a 8 x 48 in format. With highly realistic grain patterns and a timeless aesthetic, this tile strikes the perfect balance between comfort, luxury, and durability for any architectural space. It is designed to offer the tactile and visual beauty of natural wood while ensuring the technical superiority and durability characteristic of the material.",
      formatos: [

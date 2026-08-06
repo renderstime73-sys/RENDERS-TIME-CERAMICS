@@ -43,6 +43,53 @@ collections.forEach(collection => {
 
 });
 
+const finishes = [
+    {
+        nombre: "Stone effect",
+        imagen: "images/stone.jpg",
+        effect: "Stone"
+    },
+    {
+        nombre: "Polished effect",
+        imagen: "images/white_marble.jpg",
+        effect: "Polished"
+    },
+    {
+        nombre: "Matte effect",
+        imagen: "images/matte_marble.jpg",
+        effect: "Matte"
+    },
+    {
+        nombre: "Wood effect",
+        imagen: "images/wood.jpg",
+        effect: "Wood"
+    }
+];
+
+const finishesGrid = document.getElementById("finishesGrid");
+
+finishes.forEach(finish => {
+
+    finishesGrid.innerHTML += `
+
+    <div class="finish-card">
+
+        <img src="${finish.imagen}" alt="${finish.nombre}">
+
+        <div class="finish-overlay">
+
+            <span>${finish.nombre}</span>
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+        </div>
+
+    </div>
+
+    `;
+
+});
+
 
 
 const galeria = document.getElementById("galeria");
