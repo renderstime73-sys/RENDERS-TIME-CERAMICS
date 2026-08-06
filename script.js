@@ -1,23 +1,43 @@
 
+// ===================================
+// COLLECTIONS
+// ===================================
+
 const collectionsGrid = document.getElementById("collectionsGrid");
 
-collections.forEach(collection=>{
+// Obtener una sola colección por nombre
+const collections = [...new Map(
+    imagenes.map(item => [
+        item.collection,
+        {
+            nombre: item.collection,
+            imagen: "images/" + item.archivo,
+            descripcion: item.descripcion
+        }
+    ])
+).values()];
+
+// Crear tarjetas
+collections.forEach(collection => {
 
     collectionsGrid.innerHTML += `
 
-    <div class="collection-card">
+        <div class="collection-card"
+             onclick="filtrarCollection('${collection.nombre}')">
 
-        <img src="${collection.imagen}">
+            <img src="${collection.imagen}" alt="${collection.nombre}">
 
-        <div class="collection-content">
+            <div class="collection-content">
 
-            <h3>${collection.nombre}</h3>
+                <h3>${collection.nombre}</h3>
 
-            <p>${collection.descripcion}</p>
+                <p>
+                    ${collection.descripcion.substring(0,120)}...
+                </p>
+
+            </div>
 
         </div>
-
-    </div>
 
     `;
 
@@ -84,3 +104,19 @@ buscar.addEventListener("input", function () {
     mostrarGaleria(resultados);
 
 });
+
+
+function filtrarCollection(nombre){
+
+    const resultados = imagenes.filter(producto =>
+        producto.collection === nombre
+    );
+
+    mostrarGaleria(resultados);
+
+    window.scrollTo({
+        top: document.querySelector(".products-home").offsetTop - 80,
+        behavior: "smooth"
+    });
+
+}
