@@ -72,7 +72,8 @@ finishes.forEach(finish => {
 
     finishesGrid.innerHTML += `
 
-    <div class="finish-card">
+    <div class="finish-card"
+         onclick="filtrarFinish('${finish.effect}')">
 
         <img src="${finish.imagen}" alt="${finish.nombre}">
 
@@ -142,7 +143,7 @@ buscar.addEventListener("input", function () {
         return (
             producto.nombre.toLowerCase().includes(texto) ||
             producto.descripcion.toLowerCase().includes(texto) ||
-            producto.acabado.toLowerCase().includes(texto) ||
+            (producto.effect || "").toLowerCase().includes(texto) ||
             formatos.includes(texto)
         );
 
@@ -157,6 +158,21 @@ function filtrarCollection(nombre){
 
     const resultados = imagenes.filter(producto =>
         producto.collection === nombre
+    );
+
+    mostrarGaleria(resultados);
+
+    window.scrollTo({
+        top: document.querySelector(".products-home").offsetTop - 80,
+        behavior: "smooth"
+    });
+
+}
+
+function filtrarFinish(effect){
+
+    const resultados = imagenes.filter(producto =>
+        producto.effect === effect
     );
 
     mostrarGaleria(resultados);
