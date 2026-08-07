@@ -73,7 +73,7 @@ ul{
 
 .hero{
 
-    height: 600px;
+    height: 800px;
 
     display:flex;
 
@@ -2085,7 +2085,7 @@ FORMATS
 }
 
 .format-card {
-    width: 260px;
+    width: 320px;
     text-align: center;
 }
 
@@ -2118,8 +2118,8 @@ FORMATS
 }
 
 .format-preview {
-    width: 260px;
-    height: 280px;
+    width: 320px;
+    height: 330px;
 
     border: 1px solid #ddd;
     border-radius: 8px;
