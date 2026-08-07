@@ -1981,11 +1981,9 @@ COLLECTION CARD
 FINISHES
 =========================================*/
 
-.finishes-home{
-
-    background:#232323;
-    padding:90px 0;
-
+.finishes-home {
+    background: #171717;
+    padding: 90px 0 120px;
 }
 
 .cards-grid{
@@ -1997,13 +1995,11 @@ FINISHES
 }
 
 .finishes-home h2 {
-    color: #111;
+    color: #fff;
 }
-
 .finishes-home .section-description {
-    color: #555;
+    color: #aaa;
 }
-
 .section-description{
 
     color:#b9b9b9;
@@ -2013,7 +2009,7 @@ FINISHES
 
 .finish-card {
     position: relative;
-    height: 260px;
+    height: 420px;
     border-radius: 14px;
     overflow: hidden;
     cursor: pointer;
