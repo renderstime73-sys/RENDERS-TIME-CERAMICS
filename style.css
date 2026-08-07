@@ -2000,7 +2000,7 @@ FINISHES
 .finishes-section h2,
 .finishes-section .section-description{
     position: relative;
-    left: 460px;   /* ajusta este valor */
+    left: 600px;   /* ajusta este valor */
 }
 
 .finishes-section h2{
