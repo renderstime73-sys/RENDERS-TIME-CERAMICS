@@ -1996,8 +1996,8 @@ FINISHES
 .finishes-section h2,
 .finishes-section .section-description {
     width: 1060px;
-    margin-left: 100px;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 200px;
 }
 .finishes-home h2 {
     color: #fff;
