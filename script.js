@@ -63,6 +63,11 @@ const finishes = [
         nombre: "Wood effect",
         imagen: "images/wood.jpg",
         effect: "Wood"
+    },
+    {
+        nombre: "Texture effect",
+        imagen: "images/granular.jpg",
+        effect: "Granular"
     }
 ];
 
