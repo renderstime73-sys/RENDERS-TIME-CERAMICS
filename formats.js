@@ -1,29 +1,24 @@
 const formats = [
-
-{
-    size:"60×120",
-    width:70,
-    height:140
-},
-
-{
-    size:"60×60",
-    width:120,
-    height:120
-},
-
-{
-    size:"80×80",
-    width:140,
-    height:140
-},
-
-{
-    size:"120×120",
-    width:155,
-    height:155
-}
-
+    {
+        size: "12 × 24",
+        width: 65,
+        height: 130
+    },
+    {
+        size: "24 × 24",
+        width: 120,
+        height: 120
+    },
+    {
+        size: "24 × 48",
+        width: 75,
+        height: 150
+    },
+    {
+        size: "8 × 48",
+        width: 35,
+        height: 170
+    }
 ];
 
 
