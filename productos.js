@@ -569,7 +569,7 @@ const imagenes = [
         aplicaciones: [
     "Residential",
     "Commercial",
-    "Flor",
+    "Floor",
     "Wall",
     "Bathroom",
     "Kitchen",
@@ -728,7 +728,7 @@ const imagenes = [
         aplicaciones: [
     "Residential",
     "Commercial",
-    "Flor",
+    "Floor",
     "Wall",
     "Living Room",
     "Outdoor",
@@ -805,7 +805,7 @@ const imagenes = [
             nombre: ""}
            ],
         aplicaciones: [
-    "Flor",
+    "Floor",
     "Bathroom",
     "Kitchen",
     "Living Room",
@@ -854,7 +854,7 @@ const imagenes = [
         aplicaciones: [
     "Residential",
     "Commercial",
-    "Flor",
+    "Floor",
     "Wall",
     "Bathroom",
     "Kitchen",

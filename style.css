@@ -1999,8 +1999,8 @@ FINISHES
 
 .finishes-section h2,
 .finishes-section .section-description{
-    margin-left: 0;
-    text-align: left;
+    position: relative;
+    left: 430px;   /* ajusta este valor */
 }
 
 .finishes-section h2{
