@@ -68,7 +68,11 @@ const finishes = [
 
 const finishesGrid = document.getElementById("finishesGrid");
 
-finishes.forEach(finish => {
+finishes.forEach(finish=>{
+
+    const cantidad = imagenes.filter(producto =>
+        producto.effect === finish.effect
+    ).length;
 
     finishesGrid.innerHTML += `
 
@@ -79,9 +83,15 @@ finishes.forEach(finish => {
 
         <div class="finish-overlay">
 
-            <span>${finish.nombre}</span>
+            <div>
 
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <h3>${finish.nombre}</h3>
+
+                <p>${cantidad} Collections</p>
+
+            </div>
+
+            <i class="fa-solid fa-arrow-right-long"></i>
 
         </div>
 
