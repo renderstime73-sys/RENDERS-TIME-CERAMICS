@@ -22,30 +22,26 @@ const formats = [
 ];
 
 
-const grid = document.getElementById("formatsGrid");
+const formatsGrid = document.getElementById("formatsGrid");
 
-formats.forEach(format=>{
+formats.forEach(format => {
 
-    grid.innerHTML += `
+    formatsGrid.innerHTML += `
+        <div class="format-card">
 
-    <div class="format-card">
-
-        <div class="format-preview">
-
-            <div
-                class="tile"
-                style="
-                    width:${format.width}px;
-                    height:${format.height}px;
-                ">
+            <div class="format-preview">
+                <div 
+                    class="tile"
+                    style="
+                        width:${format.width}px;
+                        height:${format.height}px;
+                    ">
+                </div>
             </div>
 
+            <h3>${format.size}</h3>
+
         </div>
-
-        <h3>${format.size}</h3>
-
-    </div>
-
     `;
 
 });
