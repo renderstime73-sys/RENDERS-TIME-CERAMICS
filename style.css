@@ -1807,57 +1807,7 @@ DESIGN GALLERY
 
 
 
-/*=========================================
-ABOUT HOME
-=========================================*/
 
-.about-home{
-
-    padding:120px 0;
-
-    background:#ffffff;
-
-}
-
-.about-home .container{
-
-    max-width:1000px;
-
-    margin:auto;
-
-    text-align:center;
-
-    padding:0 40px;
-
-}
-
-.about-home h2{
-
-    font-size:52px;
-
-    font-weight:300;
-
-    letter-spacing:2px;
-
-    margin-bottom:30px;
-
-    color:#111;
-
-}
-
-.about-home p{
-
-    font-size:21px;
-
-    line-height:2;
-
-    color:#666;
-
-    max-width:900px;
-
-    margin:auto;
-
-}
 
 
 /*=========================================
@@ -2003,6 +1953,7 @@ FINISHES
 
 .finishes-section h2{
     margin-bottom: 10px;
+    font-size: 40px;
 }
 
 .finishes-section .section-description{
