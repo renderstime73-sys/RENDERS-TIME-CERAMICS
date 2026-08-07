@@ -1975,8 +1975,6 @@ COLLECTION CARD
 
 
 
-
-
 /*=========================================
 FINISHES
 =========================================*/
@@ -1995,6 +1993,12 @@ FINISHES
 
 }
 
+.finishes-section h2,
+.finishes-section .section-description {
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .finishes-home h2 {
     color: #fff;
 }
@@ -2009,10 +2013,11 @@ FINISHES
 }
 
 .finish-card {
-    position: relative;
-    height: 340px;
-    border-radius: 12px;
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
     overflow: hidden;
+    position: relative;
     cursor: pointer;
 }
 
@@ -2079,6 +2084,10 @@ FINISHES
 
 }
 
-
-
+#finishesGrid {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 30px;
+}
 
