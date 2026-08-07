@@ -73,7 +73,7 @@ ul{
 
 .hero{
 
-    height: 800px;
+    height: 1000px;
 
     display:flex;
 
@@ -2090,8 +2090,8 @@ FORMATS
 }
 
 .format-image {
-    width: 340px;
-    height: 360px;
+    width: 550px;
+    height: 400px;
     overflow: hidden;
     border-radius: 4px;
     background: #eee;
