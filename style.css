@@ -1993,15 +1993,14 @@ FINISHES
 }
 
 .finishes-section .container{
-    width: fit-content;
+    max-width: 1200px;
     margin: 0 auto;
 }
-
 .finishes-section h2,
 .finishes-section .section-description{
     text-align: center;
-    margin: 0 auto;
 }
+
 .finishes-section h2{
     margin-bottom: 10px;
 }
