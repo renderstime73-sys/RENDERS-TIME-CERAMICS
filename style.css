@@ -1999,16 +1999,15 @@ FINISHES
 
 .finishes-section h2,
 .finishes-section .section-description{
-    position: relative;
-    left: 600px;   /* ajusta este valor */
+    text-align: center;
+    margin: 0 auto;
 }
-
 .finishes-section h2{
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .finishes-section .section-description{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .finishes-home h2 {
     color: #fff;
