@@ -1983,13 +1983,14 @@ FINISHES
 
 .finishes-home {
     background: #171717;
-    padding: 90px 0 120px;
+    padding: 90px 40px 110px;
 }
 
 .cards-grid{
 
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
     gap:20px;
 
 }
@@ -2009,8 +2010,8 @@ FINISHES
 
 .finish-card {
     position: relative;
-    height: 420px;
-    border-radius: 14px;
+    height: 340px;
+    border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
 }
