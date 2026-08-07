@@ -2058,65 +2058,63 @@ FINISHES
 FORMATS
 *=========================================*/
 
-.formats-section{
-    background:#fff;
-    padding:120px 40px;
+.formats-section {
+    background: #fff;
+    padding: 120px 40px;
 }
 
-.formats-section h2{
-    text-align:center;
-    font-size:40px;
-    font-weight:500;
-    color:#111;
-    margin-bottom:12px;
+.formats-section h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 12px;
 }
 
-.formats-section .section-description{
-    text-align:center;
-    color:#888;
-    margin-bottom:70px;
+.formats-section .section-description {
+    text-align: center;
+    color: #888;
+    margin-bottom: 70px;
 }
 
-.formats-grid{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    flex-wrap:wrap;
+.formats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
 }
 
-.format-card{
-
-    width:180px;
-    text-align:center;
+.format-card {
+    width: 250px;
+    text-align: center;
 }
 
-.format-preview{
-
-    width:180px;
-    height:180px;
-
-    border:1px solid #ddd;
-    border-radius:8px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    background:#fafafa;
-
-    transition:.3s;
+.format-image {
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 2px;
+    background: #eee;
 }
 
-.format-card:hover .format-preview{
-
-    transform:translateY(-5px);
-
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
+.format-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .4s ease;
 }
 
-.tile{
-
-    background:#d8d8d8;
-    border-radius:3px;
+.format-card:hover .format-image img {
+    transform: scale(1.05);
 }
+
+.format-card h3 {
+    margin: 12px 0 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #222;
+}
+
+
 
