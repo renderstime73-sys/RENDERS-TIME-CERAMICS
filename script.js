@@ -186,15 +186,6 @@ function filtrarCollection(nombre){
 
 function filtrarFinish(effect){
 
-    const resultados = imagenes.filter(producto =>
-        producto.effect === effect
-    );
-
-    mostrarGaleria(resultados);
-
-    window.scrollTo({
-        top: document.querySelector(".products-home").offsetTop - 80,
-        behavior: "smooth"
-    });
+    window.location.href = `finish.html?effect=${encodeURIComponent(effect)}`;
 
 }
