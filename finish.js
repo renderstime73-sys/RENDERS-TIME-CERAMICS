@@ -14,7 +14,7 @@ descripcion.textContent =
 
 
 const resultados = imagenes.filter(producto =>
-    producto.effect === effect
+    producto.effects && producto.effects.includes(effect)
 );
 
 
