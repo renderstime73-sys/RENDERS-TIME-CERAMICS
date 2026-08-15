@@ -113,8 +113,7 @@ const imagenes = [
 {   id: "asleth",
     nombre: "Asleth",
     collection: "Gray Marble",
-    effect: "Polished",
-    effect: "Matte",
+    effects: ["Polished", "Matte"],
     archivo: "TC6012A0320_ASLETH 3D.jpg",
     descripcion: "This porcelain tile features a warm, soft beige background with delicate sand-colored veins, creating a natural and subtle sense of movement. Based on the design shown in the image, this tile is ideal for creating cozy, timeless spaces with a relaxed elegance. Available in a polished finish, for a subtle sheen that enhances the depth of color, and in a matte finish, for a soft-to-the-touch texture and a more natural appearance.",
     formatos: [
@@ -164,8 +163,7 @@ const imagenes = [
 {   id: "dozza-elite",
     nombre: "Dozza Elite",
     collection: "Onix",
-    effect: "Polished",
-    effect: "Matte",
+    effects: ["Polished", "Matte"],
     archivo: "TC6012A0510_DOZZA ELITE 3D.jpg",
     descripcion: "This porcelain tile captures the translucent essence and delicacy of onyx. Its soft cream tone is complemented by ethereal veins and subtle golden hues that lend a unique visual depth, making it ideal for creating serene, luxurious spaces with a sense of expansive light. Available in a polished finish, which enhances its glass-like effect and spectacular shine, and in a matte finish, for an elegant, tactile, and exceptionally smooth surface.",
     formatos: [
@@ -258,8 +256,7 @@ const imagenes = [
 {   id: "nevado",
     nombre: "Nevado",
     collection: "White Marble",
-    effect: "Polished",
-    effect: "Matte",
+    effects: ["Polished", "Matte"],
     archivo: "TC6012A0980_NEVADO.jpg",
     descripcion: "This pure white porcelain tile stands out for its clean, uniform, and bright appearance, offering a timeless aesthetic that enhances visual spaciousness while bringing a sense of order and sophistication to any environment. Its minimalist surface serves as the perfect canvas for contemporary architectural projects, allowing complete freedom in the combination of materials, colors, and decorative styles.",
     formatos: [
@@ -345,8 +342,7 @@ const imagenes = [
 {   id: "perla",
     nombre: "Perla",
     collection: "White Marble",
-    effect: "Polished",
-    effect: "Matte",
+   effects: ["Polished", "Matte"],
     archivo: "TC6060A0120-perla.jpg",
     descripcion: "This porcelain tile features a pure white background with delicate gray veining that flows softly across the surface, recreating the sophistication of the world's most exclusive marbles. Its balanced design enhances visual spaciousness, brightness, and a sense of understated luxury, making it a versatile choice for both residential and commercial projects.",
      formatos: [
@@ -466,8 +462,7 @@ const imagenes = [
 {   id: "paraty",
     nombre: "Paraty",
     collection: "White Marble",
-    effect: "Polished",
-    effect: "Matte",
+    effects: ["Polished", "Matte"],
     archivo: "TC6060A0950-PARATY.jpg",
     descripcion: "Paraty embodies natural luxury through a harmonious blend of a pristine white background and elegant golden veining accented with subtle gray tones. Inspired by some of the world's most exclusive marbles, its design adds depth, warmth, and distinctive character, transforming any interior into a sophisticated setting. Its versatile aesthetic makes it the perfect choice for contemporary projects seeking a refined finish with remarkable visual impact.",
      formatos: [
@@ -536,8 +531,7 @@ const imagenes = [
 {   id: "statuario",
     nombre: "Statuario",
     collection: "White Marble",
-    effect: "Polished",
-    effect: "Matte",
+    effects: ["Polished", "Matte"],
     archivo: "TC6060A0960_STATUARIO.jpg",
     descripcion: "Defined by its clean and understated aesthetic, this porcelain tile reimagines the elegance of white marble through delicate gray veining that flows naturally across the surface. Its subtle composition creates a sense of calm and balance, making it the perfect foundation for contemporary architectural and interior design projects. Suitable for both residential and commercial spaces, it delivers a refined appearance while providing the exceptional durability and performance of porcelain.", 
     formatos: [
@@ -660,8 +654,7 @@ const imagenes = [
 {   id: "carrara-gold",
     nombre: "Carrara Gold",
     collection: "White Marble",
-    effect: "Polished",
-    effect: "Matte",
+    effects: ["Polished", "Matte"],
     archivo: "TC6012A0140_CARRARA GOLD_FINAL.jpg",
     descripcion: "The Carrara Gold porcelain tile stands out for its pure white background with golden and gray veins, lending a sophisticated and modern aesthetic to any space and giving it the organic timelessness it deserves. This design offers exceptional visual precision for luxury architectural projects. Available in polished and matte finishes.",
     formatos: [
