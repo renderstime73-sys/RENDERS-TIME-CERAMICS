@@ -2370,7 +2370,7 @@ FORMATS
 @media (max-width: 550px) {
 
     .finish-products {
-        padding: 100px 20px 80px;
+        padding: 100px 15px 80px;
     }
 
     #finishTitle {
@@ -2383,13 +2383,18 @@ FORMATS
         font-size: 14px;
     }
 
-    #finishGallery {
-        grid-template-columns: 1fr;
-        gap: 20px;
+   #finishGallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
     }
 
     #finishGallery .card img {
-        height: 360px;
+        height: 220px;
+    }
+
+    #finishGallery .card h3 {
+        padding: 14px 12px 16px;
+        font-size: 15px;
     }
 
 }
