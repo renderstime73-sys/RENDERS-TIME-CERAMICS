@@ -14,9 +14,11 @@ descripcion.textContent =
 
 
 const resultados = imagenes.filter(producto =>
-    producto.effects && producto.effects.includes(effect)
+    Array.isArray(producto.effects) &&
+    producto.effects.some(e =>
+        e.trim().toLowerCase() === effect.trim().toLowerCase()
+    )
 );
-
 
 resultados.forEach(producto => {
 
