@@ -29,7 +29,7 @@ resultados.forEach(producto => {
     card.onclick = function(){
 
         window.location.href =
-            `producto.html?id=${producto.id}`;
+    `producto.html?id=${producto.id}&effect=${encodeURIComponent(effect)}`;
 
     };
 

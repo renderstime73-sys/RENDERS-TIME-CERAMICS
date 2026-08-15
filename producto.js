@@ -2,6 +2,21 @@ const parametros = new URLSearchParams(window.location.search);
 
 const id = parametros.get("id");
 
+const backToFinish = document.getElementById("backToFinish");
+
+if (effect) {
+
+    backToFinish.textContent = `← Back to ${effect}`;
+    backToFinish.href =
+        `finish.html?effect=${encodeURIComponent(effect)}`;
+
+} else {
+
+    backToFinish.textContent = "← Back to Products";
+    backToFinish.href = "index.html";
+
+}
+
 const producto = imagenes.find(p => p.id === id);
 
 document.getElementById("nombre").textContent =

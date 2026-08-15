@@ -75,9 +75,15 @@ const finishesGrid = document.getElementById("finishesGrid");
 
 finishes.forEach(finish=>{
 
-    const cantidad = imagenes.filter(producto =>
-        producto.effect === finish.effect
-    ).length;
+  const cantidad = new Set(
+    imagenes
+        .filter(producto =>
+            producto.effects &&
+            producto.effects.includes(finish.effect)
+        )
+        .map(producto => producto.collection)
+        .filter(Boolean)
+).size;
 
     finishesGrid.innerHTML += `
 
