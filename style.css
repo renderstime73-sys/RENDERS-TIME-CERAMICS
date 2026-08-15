@@ -2145,26 +2145,7 @@ FORMATS
     margin: 0 auto;
 }
 
-.back-to-finishes {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
 
-    margin-bottom: 35px;
-
-    color: #aaa;
-    text-decoration: none;
-
-    font-size: 14px;
-    letter-spacing: 0.5px;
-
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.back-to-finishes:hover {
-    color: #fff;
-    transform: translateX(-4px);
-}
 /* =========================================================
    TÍTULO
    ========================================================= */
@@ -2411,4 +2392,25 @@ FORMATS
         height: 360px;
     }
 
+}
+
+.back-to-finishes {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 35px;
+
+    color: #aaa;
+    text-decoration: none;
+
+    font-size: 14px;
+    letter-spacing: 0.5px;
+
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-finishes:hover {
+    color: #fff;
+    transform: translateX(-4px);
 }
