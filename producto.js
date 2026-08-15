@@ -1,6 +1,7 @@
 const parametros = new URLSearchParams(window.location.search);
 
 const id = parametros.get("id");
+const effect = parametros.get("effect");
 
 const backToFinish = document.getElementById("backToFinish");
 
