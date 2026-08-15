@@ -2679,3 +2679,297 @@ FORMATS
     }
 
 }
+
+
+/* =========================================================
+   MOBILE — PRODUCT PAGE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+
+    /* ==========================
+       CONTENEDOR PRINCIPAL
+    ========================== */
+
+    .producto-luxury {
+        padding: 40px 20px 70px;
+    }
+
+
+    /* ==========================
+       BREADCRUMB
+    ========================== */
+
+    .breadcrumb {
+        font-size: 10px;
+        letter-spacing: 2px;
+
+        margin-bottom: 22px;
+    }
+
+
+    /* ==========================
+       BOTÓN REGRESAR
+    ========================== */
+
+    .volver,
+    #backToFinish {
+        display: inline-block;
+
+        font-size: 15px;
+
+        margin-bottom: 25px;
+    }
+
+
+    /* ==========================
+       TÍTULO DEL PRODUCTO
+    ========================== */
+
+    .titulo-producto {
+        font-size: 58px;
+
+        line-height: 1;
+
+        margin-bottom: 35px;
+
+        word-break: break-word;
+    }
+
+
+    /* ==========================
+       IMAGEN PRINCIPAL
+    ========================== */
+
+    .hero-producto {
+        margin-bottom: 25px;
+    }
+
+    .imagen-principal {
+        width: 100%;
+
+        height: auto;
+
+        max-height: none;
+
+        aspect-ratio: 1 / 1;
+
+        object-fit: cover;
+
+        border-radius: 8px;
+    }
+
+
+    /* ==========================
+       MINIATURAS
+    ========================== */
+
+    .miniaturas {
+        display: flex;
+
+        gap: 12px;
+
+        flex-wrap: wrap;
+
+        margin: 20px 0 40px;
+    }
+
+
+    .miniatura-item {
+        width: calc(50% - 6px);
+    }
+
+
+    .miniatura {
+        width: 100%;
+
+        height: 120px;
+
+        object-fit: cover;
+    }
+
+
+    .miniatura-titulo {
+        margin-top: 8px;
+
+        font-size: 14px;
+
+        color: #d5d5d5;
+    }
+
+
+    /* ==========================
+       BOTONES
+    ========================== */
+
+    .acciones {
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 12px;
+
+        margin-bottom: 60px;
+    }
+
+
+    .btn-outline {
+        width: 100%;
+
+        text-align: center;
+
+        padding: 16px 18px;
+
+        font-size: 12px;
+    }
+
+
+    /* ==========================
+       CONTENIDO
+    ========================== */
+
+    .contenido-producto {
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 55px;
+    }
+
+
+    .col-video,
+    .col-info {
+        width: 100%;
+    }
+
+
+    /* ==========================
+       VIDEO
+    ========================== */
+
+    .col-video video {
+        width: 100%;
+
+        max-width: none;
+
+        border-radius: 8px;
+    }
+
+
+    /* ==========================
+       TOUR 360
+    ========================== */
+
+    .tour360 {
+        margin-top: 35px;
+    }
+
+
+    #tour360 {
+        width: 100%;
+
+        height: 350px;
+
+        border-radius: 8px;
+    }
+
+
+    /* ==========================
+       INFORMACIÓN
+    ========================== */
+
+    .col-info {
+        gap: 38px;
+    }
+
+
+    .bloque-info h3 {
+        font-size: 12px;
+
+        letter-spacing: 2px;
+
+        margin-bottom: 14px;
+    }
+
+
+    .bloque-info p {
+        font-size: 17px;
+
+        line-height: 1.8;
+    }
+
+
+    /* ==========================
+       FORMATOS
+    ========================== */
+
+    #formatos {
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 25px;
+    }
+
+
+    .formato-card {
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+    }
+
+
+    .formato-figura {
+        width: 70px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .formato-card p {
+        font-size: 14px;
+    }
+
+
+    /* ==========================
+       APPLICATIONS
+    ========================== */
+
+    .applications {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 12px;
+    }
+
+
+    .app-item {
+        padding: 20px 10px;
+
+        gap: 10px;
+    }
+
+
+    .app-item i {
+        font-size: 25px;
+    }
+
+
+    .app-item span {
+        font-size: 13px;
+    }
+
+
+    /* ==========================
+       FOOTER
+    ========================== */
+
+    .producto-page .footer {
+        margin-top: 70px;
+    }
+
+}
