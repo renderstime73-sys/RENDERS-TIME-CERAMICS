@@ -5,6 +5,7 @@ const imagenes = [
         collection: "Amiata",
         effects: ["Stone"],
         archivo: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
+        imagenFicha: "amiata-ivory.jpg",
         descripcion: "Inspired by the authentic beauty of natural stone, the AMIATA collection features a soft texture, delicate tonal variations, and subtle veining that add depth and realism to every surface. Its balanced design combines a contemporary mineral appearance with a timeless aesthetic, creating sophisticated, bright, and welcoming spaces. Available in five carefully selected shades, ranging from warm beiges to modern grays, offers exceptional versatility for both residential and commercial projects.",
         formatos: [
     {

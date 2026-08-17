@@ -158,14 +158,13 @@ if (productDataTable) {
 
     productDataTable.innerHTML = `
 
-        <div class="product-data-image">
+       <div class="product-data-image">
 
-            <img
-                src="images/${producto.archivo}"
-                alt="${producto.nombre}">
+    <img
+        src="images/${producto.imagenFicha}"
+        alt="${producto.nombre}">
 
-        </div>
-
+</div>
 
         <div class="product-data-info">
 
@@ -216,18 +215,6 @@ if (productDataTable) {
 
             </div>
 
-
-            <div class="product-data-row">
-
-                <span class="data-label">
-                    APPLICATIONS
-                </span>
-
-                <span class="data-value">
-                    ${aplicacionesTexto}
-                </span>
-
-            </div>
 
 
             ${
