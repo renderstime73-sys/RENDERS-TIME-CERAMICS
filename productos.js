@@ -871,6 +871,7 @@ const imagenes = [
     collection: "Granular",
     effects: ["Granular"],
     archivo: "TX6012C417C_LUNARA NATURAL.jpg",
+    imagenFicha: "LUNARA-IVORY.jpg",
     descripcion: 
     "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
 
@@ -889,15 +890,24 @@ const imagenes = [
 
     renders: [
 
-        {imagen: "TX6012C417C_LUNARA NATURA.jpg",
+        {imagen: "TX6012A417A_LUNARA IVORY.jpg",
+            nombre: "Ivory"
+            },
+            {imagen: "LUNARA-IVORY.jpg",
+            nombre: ""
+            },
+        {imagen: "TX6012B417B_LUNARA LIGHT YELLOW.jpg",
+            nombre: "Light Yellow",
+            },
+            {imagen: "LUNARA-LIGHT YELLOW.jpg",
+            nombre: ""
+            },
+        {imagen: "TX6012C417C_LUNARA NATURAL.jpg",
             nombre: "Natural"
             },
-        {imagen: "laurent2.jpg",
-            nombre: "",
-            },
-        {imagen: "laurent3.jpg",
+            {imagen: "LUNARA-NATURAL.jpg",
             nombre: ""
-            }
+            },
        ],
         aplicaciones: [
     "Residential",
