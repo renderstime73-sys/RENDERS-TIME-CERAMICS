@@ -863,6 +863,52 @@ const imagenes = [
     "Living Room",
     "Bedroom",
 ],
+},
+
+{   id: "lunara-",
+
+    nombre: "Lunara",
+    collection: "Granular",
+    effects: ["Granular"],
+    archivo: "TX6012C417C_LUNARA NATURAL.jpg",
+    descripcion: 
+    "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
+
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    }
+],
+
+    acabado: "Granular",
+
+    video: "videos/lunara-video.mp4",
+
+    ficha: "pdf/lunara.pdf",
+
+    renders: [
+
+        {imagen: "TX6012C417C_LUNARA NATURA.jpg",
+            nombre: "Natural"
+            },
+        {imagen: "laurent2.jpg",
+            nombre: "",
+            },
+        {imagen: "laurent3.jpg",
+            nombre: ""
+            }
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Wall",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Bedroom",
+],
 }
 
 
