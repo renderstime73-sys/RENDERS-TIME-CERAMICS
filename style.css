@@ -3654,6 +3654,8 @@ FORMATS
 
     width: 100%;
     height: auto;
+    display: block;
+    object-fit: contain;
     transform: rotate(90deg);
 
 }
