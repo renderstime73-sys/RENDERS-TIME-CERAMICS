@@ -925,6 +925,60 @@ const imagenes = [
         {imagen: "TX6012A417A_LUNARA IVORY.jpg",
             nombre: "Ivory"
             },
+            {image: "images/granillo/LUNARA-IVORY.jpg",
+            nombre: ""
+            },
+        {imagen: "TX6012B417B_LUNARA LIGHT YELLOW.jpg",
+            nombre: "Light Yellow",
+            },
+            {image: "images/granillo/LUNARA-LIGHT YELLOW.jpg",
+            nombre: ""
+            },
+        {imagen: "TX6012C417C_LUNARA NATURAL.jpg",
+            nombre: "Natural"
+            },
+            {image: "images/granillo/LUNARA-NATURAL.jpg",
+            nombre: ""
+            },
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Bathroom",
+    "Living Room",
+    "Bedroom",
+],
+},
+
+{   id: "darello",
+
+    nombre: "Darello",
+    collection: "Granular",
+    effects: ["Granular"],
+    archivo: "TX6012C417C_LUNARA NATURAL.jpg",
+    imagenFicha: "images/granillo/LUNARA-IVORY.jpg",
+    descripcion: 
+    "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
+
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    }
+],
+
+    acabado: "Granular",
+
+    video: "videos/DARELLO_DARK GRAY_VIDEO.mp4",
+
+    ficha: "pdf/lunara.pdf",
+
+    renders: [
+
+        {imagen: "TX6012A417A_LUNARA IVORY.jpg",
+            nombre: "Ivory"
+            },
             {imagen: "images/granillo/LUNARA-IVORY.jpg",
             nombre: ""
             },
