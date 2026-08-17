@@ -3815,10 +3815,9 @@ FORMATS
 }
 
 .product-data-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
+    width: 70%;
+    height: auto;
+    transform: rotate(90deg);
 }
 
     .product-data-info {
