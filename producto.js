@@ -135,3 +135,126 @@ if(producto.aplicaciones){
     });
 
 }
+
+
+// ===================================
+// PRODUCT DATA TABLE
+// ===================================
+
+const productDataTable =
+    document.getElementById("productDataTable");
+
+if (productDataTable) {
+
+    const formatosTexto = producto.formatos
+        .map(formato =>
+            `${formato.ancho} × ${formato.alto} cm`
+        )
+        .join("<br>");
+
+    const aplicacionesTexto = producto.aplicaciones
+        ? producto.aplicaciones.join(" · ")
+        : "—";
+
+    productDataTable.innerHTML = `
+
+        <div class="product-data-image">
+
+            <img
+                src="images/${producto.archivo}"
+                alt="${producto.nombre}">
+
+        </div>
+
+
+        <div class="product-data-info">
+
+            <div class="product-data-title">
+
+                <span>PRODUCT</span>
+
+                <h3>${producto.nombre}</h3>
+
+            </div>
+
+
+            <div class="product-data-row">
+
+                <span class="data-label">
+                    COLLECTION
+                </span>
+
+                <span class="data-value">
+                    ${producto.collection || "—"}
+                </span>
+
+            </div>
+
+
+            <div class="product-data-row">
+
+                <span class="data-label">
+                    FINISH
+                </span>
+
+                <span class="data-value">
+                    ${producto.acabado || "—"}
+                </span>
+
+            </div>
+
+
+            <div class="product-data-row">
+
+                <span class="data-label">
+                    FORMATS
+                </span>
+
+                <span class="data-value">
+                    ${formatosTexto}
+                </span>
+
+            </div>
+
+
+            <div class="product-data-row">
+
+                <span class="data-label">
+                    APPLICATIONS
+                </span>
+
+                <span class="data-value">
+                    ${aplicacionesTexto}
+                </span>
+
+            </div>
+
+
+            ${
+                producto.ficha
+                ?
+                `
+                <div class="product-data-action">
+
+                    <a
+                        href="${producto.ficha}"
+                        class="product-data-button"
+                        target="_blank">
+
+                        <i class="fa-regular fa-file-pdf"></i>
+
+                        Download Technical Data Sheet
+
+                    </a>
+
+                </div>
+                `
+                :
+                ""
+            }
+
+        </div>
+
+    `;
+
+}
