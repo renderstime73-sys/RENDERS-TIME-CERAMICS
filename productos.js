@@ -42,8 +42,14 @@ const imagenes = [
     {   imagen: "amiata_3.jpg",
         nombre: "Light Gray"   
     },    
+     {   imagen: "amiata-light gray.jpg",
+        nombre: ""
+    },
     {   imagen: "amiata_4.jpg",
         nombre: "Medium Gray"
+    },
+    {   imagen: "amiata-medium gray.jpg",
+        nombre: ""
     },
     {   imagen: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
         nombre: "Dark Gray"
