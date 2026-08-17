@@ -903,7 +903,7 @@ const imagenes = [
     collection: "Granular",
     effects: ["Granular"],
     archivo: "TX6012C417C_LUNARA NATURAL.jpg",
-    imagenFicha: "images/granillo/LUNARA-IVORY.jpg",
+    imagenFicha: "granillo/LUNARA-IVORY.jpg",
     descripcion: 
     "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
 
@@ -925,19 +925,19 @@ const imagenes = [
         {imagen: "TX6012A417A_LUNARA IVORY.jpg",
             nombre: "Ivory"
             },
-            {image: "images/granillo/LUNARA-IVORY.jpg",
+            {imagen: "granillo/LUNARA-IVORY.jpg",
             nombre: ""
             },
         {imagen: "TX6012B417B_LUNARA LIGHT YELLOW.jpg",
             nombre: "Light Yellow",
             },
-            {image: "images/granillo/LUNARA-LIGHT YELLOW.jpg",
+            {imagen: "granillo/LUNARA-LIGHT YELLOW.jpg",
             nombre: ""
             },
         {imagen: "TX6012C417C_LUNARA NATURAL.jpg",
             nombre: "Natural"
             },
-            {image: "images/granillo/LUNARA-NATURAL.jpg",
+            {imagen: "granillo/LUNARA-NATURAL.jpg",
             nombre: ""
             },
        ],
@@ -956,8 +956,8 @@ const imagenes = [
     nombre: "Darello",
     collection: "Granular",
     effects: ["Granular"],
-    archivo: "TX6012C417C_LUNARA NATURAL.jpg",
-    imagenFicha: "images/granillo/LUNARA-IVORY.jpg",
+    archivo: "TX6012B414C_DARELLO MEDIUM GREY.jpg",
+    imagenFicha: "granillo/LUNARA-IVORY.jpg",
     descripcion: 
     "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
 
@@ -972,26 +972,35 @@ const imagenes = [
 
     video: "videos/DARELLO_DARK GRAY_VIDEO.mp4",
 
-    ficha: "pdf/lunara.pdf",
+    ficha: "pdf/darello.pdf",
 
     renders: [
 
-        {imagen: "TX6012A417A_LUNARA IVORY.jpg",
+        {imagen: "DARELLO LIGHT IVORY.png",
             nombre: "Ivory"
             },
-            {imagen: "images/granillo/LUNARA-IVORY.jpg",
+            {imagen: "granillo/DARELLO_IVORY.jpg",
             nombre: ""
             },
-        {imagen: "TX6012B417B_LUNARA LIGHT YELLOW.jpg",
+
+        {imagen: "TX6012A414B_DARELLO LIGHT YELLOW.jpg",
             nombre: "Light Yellow",
             },
-            {imagen: "images/granillo/LUNARA-LIGHT YELLOW.jpg",
+            {imagen: "granillo/DARELLO-LIGHT YELLOW.jpg",
             nombre: ""
             },
-        {imagen: "TX6012C417C_LUNARA NATURAL.jpg",
-            nombre: "Natural"
+
+        {imagen: "TX6012B414C_DARELLO MEDIUM GREY.jpg",
+            nombre: "Medium Gray"
             },
-            {imagen: "images/granillo/LUNARA-NATURAL.jpg",
+            {imagen: "images/granillo/DARELLO_MEDIUM GRAY.jpg",
+            nombre: ""
+            },
+
+        {imagen: "TX6012C414D_DARELLO DARK.jpg",
+            nombre: "Dark"
+            },
+            {imagen: "images/granillo/DARELLO_DARK.jpg",
             nombre: ""
             },
        ],
