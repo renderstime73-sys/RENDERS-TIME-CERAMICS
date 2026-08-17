@@ -54,6 +54,9 @@ const imagenes = [
     {   imagen: "TP6012B0034_AMIATA GRIS OSCURO 3D.jpg",
         nombre: "Dark Gray"
     },  
+    {   imagen: "amiata-dark gray.jpg",
+        nombre: ""
+    },
        ],
         aplicaciones: [
     "Residential",
