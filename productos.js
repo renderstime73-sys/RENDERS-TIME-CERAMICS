@@ -818,6 +818,38 @@ const imagenes = [
 ],
 },
 
+{   id: "monaco",
+    nombre: "Monaco",
+    collection: "Wood Tiles",
+    effects: ["Wood"],
+    archivo: "TT2012A424A_MONACO.jpg",
+    descripcion: "The warmth of natural wood combines with the durability of our high-quality porcelain tile in a 8 x 48 in format. With highly realistic grain patterns and a timeless aesthetic, this tile strikes the perfect balance between comfort, luxury, and durability for any architectural space. It is designed to offer the tactile and visual beauty of natural wood while ensuring the technical superiority and durability characteristic of the material.",
+     formatos: [
+    {
+        ancho: 120,
+        alto: 20
+    }
+],
+    acabado: "Matte",
+    video: "videos/MONACO_VIDEO.mp4",
+    ficha: "pdf/MONACO.pdf",
+    renders: [
+        {imagen: "TT2012A424A_MONACO.jpg",
+            nombre: "Yellow"},
+        {imagen: "HUSEN_1.png",
+            nombre: ""}
+           ],
+        aplicaciones: [
+    "Floor",
+    "Bathroom",
+    "Kitchen",
+    "Living Room",
+    "Bedroom",
+    "Outdoor",
+],
+},
+
+
 {   id: "laurent-gold",
 
     nombre: "Laurent Gold",
