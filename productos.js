@@ -30,11 +30,14 @@ const imagenes = [
         nombre: "Ivory",
     },
     {
-        imagen: "amiata_1_texture.jpg",
+        imagen: "amiata-ivory.jpg",
         nombre: "",
     },
     {   imagen: "amiata_2.jpg",
         nombre: "Beige Soft"
+    },
+     {   imagen: "amiata-beige soft.jpg",
+        nombre: ""
     },
     {   imagen: "amiata_3.jpg",
         nombre: "Light Gray"   
