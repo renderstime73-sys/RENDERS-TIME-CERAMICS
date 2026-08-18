@@ -160,9 +160,31 @@ if (productDataTable) {
 
        <div class="product-data-image">
 
-    <img
-        src="images/${producto.imagenFicha}"
-        alt="${producto.nombre}">
+    <div class="product-data-images">
+
+    ${
+        producto.imagenesFicha
+        ? producto.imagenesFicha.map(imagen => `
+            
+            <div class="product-data-image">
+
+                <img
+                    src="images/${imagen}"
+                    alt="${producto.nombre}">
+
+            </div>
+
+        `).join("")
+        : `
+            <div class="product-data-image">
+
+                <img
+                    src="images/${producto.imagenFicha || producto.archivo}"
+                    alt="${producto.nombre}">
+
+            </div>
+        `
+    }
 
 </div>
 

@@ -1012,7 +1012,72 @@ const imagenes = [
     "Living Room",
     "Bedroom",
 ],
+},
+
+
+{   id: "complejo",
+
+    nombre: "Complejo",
+    collection: "Granular",
+    effects: ["Granular"],
+    archivo: "granillo/TX6012B414C_DARELLO MEDIUM GREY.jpg",
+    imagenFicha: "granillo/DARELLO_IVORY.jpg",
+    descripcion: 
+    "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
+
+    formatos: [
+    {
+        ancho: 60,
+        alto: 120
+    }
+],
+
+    acabado: "Granular",
+
+    video: "videos/DARELLO_DARK GRAY_VIDEO.mp4",
+
+    ficha: "pdf/complejo.pdf",
+
+    renders: [
+
+        {imagen: "granillo/DARELLO LIGHT IVORY.png",
+            nombre: "Ivory"
+            },
+            {imagen: "granillo/DARELLO_IVORY.jpg",
+            nombre: ""
+            },
+
+        {imagen: "granillo/TX6012A414B_DARELLO LIGHT YELLOW.jpg",
+            nombre: "Light Yellow",
+            },
+            {imagen: "granillo/DARELLO_LIGHT YELLOW.jpg",
+            nombre: ""
+            },
+
+        {imagen: "granillo/TX6012B414C_DARELLO MEDIUM GREY.jpg",
+            nombre: "Medium Gray"
+            },
+            {imagen: "granillo/DARELLO_MEDIUM GRAY.jpg",
+            nombre: ""
+            },
+
+        {imagen: "granillo/TX6012C414D_DARELLO DARK.jpg",
+            nombre: "Dark"
+            },
+            {imagen: "granillo/DARELLO_DARK.jpg",
+            nombre: ""
+            },
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Bathroom",
+    "Living Room",
+    "Bedroom",
+],
 }
+
 
 
 
