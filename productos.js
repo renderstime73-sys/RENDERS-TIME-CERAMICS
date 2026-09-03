@@ -1020,8 +1020,8 @@ const imagenes = [
     nombre: "Complejo",
     collection: "Granular",
     effects: ["Granular"],
-    archivo: "granillo/TX6012B414C_DARELLO MEDIUM GREY.jpg",
-    imagenFicha: "granillo/DARELLO_IVORY.jpg",
+    archivo: "granillo/TX6012A4150_COMPLEJO IVORY.jpg",
+    imagenFicha: "granillo/TX6012A4150_COMPLEJO IVORY.jpg",
     descripcion: 
     "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
 
@@ -1040,31 +1040,24 @@ const imagenes = [
 
     renders: [
 
-        {imagen: "granillo/DARELLO LIGHT IVORY.png",
+        {imagen: "granillo/TX6012A4150_COMPLEJO IVORY.jpg",
             nombre: "Ivory"
             },
-            {imagen: "granillo/DARELLO_IVORY.jpg",
+            {imagen: "granillo/COMPLEJO IVORY.jpg",
             nombre: ""
             },
 
-        {imagen: "granillo/TX6012A414B_DARELLO LIGHT YELLOW.jpg",
-            nombre: "Light Yellow",
+        {imagen: "granillo/TX6012A4151_COMPLEJO BEIGE.jpg",
+            nombre: "Beige",
             },
-            {imagen: "granillo/DARELLO_LIGHT YELLOW.jpg",
+            {imagen: "granillo/COMPLEJO_BEIGE.jpg",
             nombre: ""
             },
 
-        {imagen: "granillo/TX6012B414C_DARELLO MEDIUM GREY.jpg",
-            nombre: "Medium Gray"
+        {imagen: "granillo/TX6012B4152_COMPLEJO LIGHT YELLOW.jpg",
+            nombre: "Light Yellow"
             },
-            {imagen: "granillo/DARELLO_MEDIUM GRAY.jpg",
-            nombre: ""
-            },
-
-        {imagen: "granillo/TX6012C414D_DARELLO DARK.jpg",
-            nombre: "Dark"
-            },
-            {imagen: "granillo/DARELLO_DARK.jpg",
+            {imagen: "granillo/COMPLEJO_LIGHT YELLOW.jpg",
             nombre: ""
             },
        ],
