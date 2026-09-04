@@ -1069,6 +1069,55 @@ const imagenes = [
     "Living Room",
     "Bedroom",
 ],
+},
+
+{   id: "mistral",
+
+    nombre: "Mistral",
+    collection: "Granular",
+    effects: ["Granular"],
+    archivo: "granillo/TX6012A4120_MISTRAL BEIGE.jpg",
+    imagenFicha: "granillo/TX6012A4120_MISTRAL BEIGE.jpg",
+    descripcion: 
+    "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
+
+    formatos: [
+    { 
+        ancho: 60,
+        alto: 120
+    }   
+],
+
+    acabado: "Granular",
+
+    video: "videos/DARELLO_DARK GRAY_VIDEO.mp4",
+
+    ficha: "pdf/Mistral.pdf",
+
+    renders: [
+
+        {imagen: "granillo/TX6012A4120_MISTRAL BEIGE.jpg",
+            nombre: "Beige"
+            },
+            {imagen: "granillo/MISTRAL_BEIGE.jpg",
+            nombre: ""
+            },
+
+        {imagen: "granillo/TX6012A4121_MISTRAL LIGHT GREY.jpg",
+            nombre: "Light Grey",
+            },
+            {imagen: "granillo/MISTRAL_LIGHT GREY.jpg",
+            nombre: ""
+            },
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Bathroom",
+    "Living Room",
+    "Bedroom",
+],
 }
 
 
