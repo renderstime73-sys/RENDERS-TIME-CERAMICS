@@ -1118,8 +1118,62 @@ const imagenes = [
     "Living Room",
     "Bedroom",
 ],
-}
+},
 
+{   id: "Petra",
+
+    nombre: "Petra",
+    collection: "Granular",
+    effects: ["Granular"],
+    archivo: "granillo/TX6012A4112_PETRA LIGHT GREY.jpg",
+    imagenFicha: "granillo/TX6012A4112_PETRA LIGHT GREY.jpg",
+    descripcion: 
+    "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
+
+    formatos: [
+    { 
+        ancho: 60,
+        alto: 120
+    }   
+],
+
+    acabado: "Granular",
+
+    video: "videos/DARELLO_DARK GRAY_VIDEO.mp4",
+
+    ficha: "pdf/Mistral.pdf",
+
+    renders: [
+
+        {imagen: "granillo/TX6012A4112_PETRA LIGHT GREY.jpg",
+            nombre: "Light Grey"
+            },
+            {imagen: "granillo/PETRA_LIGHT GREY.jpg",
+            nombre: ""
+            },
+
+        {imagen: "granillo/TX6012B4113_PETRA MEDIUM GREY.jpg",
+            nombre: "Medium Grey",
+            },
+            {imagen: "granillo/PETRA_MEDIUM GREY.jpg",
+            nombre: ""
+            },
+        {imagen: "granillo/TX6012C4114_PETRA DARK GREY.jpg",
+            nombre: "Dark Grey",
+            },
+            {imagen: "granillo/PETRA_DARK GREY.jpg",
+            nombre: ""
+            },
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Bathroom",
+    "Living Room",
+    "Bedroom",
+],
+},
 
 
 
