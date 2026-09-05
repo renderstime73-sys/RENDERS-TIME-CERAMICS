@@ -436,7 +436,7 @@ const imagenes = [
     nombre: "Bellagio",
     collection: "Onix",
     effects: ["Polished"],
-    archivo: "TC6060A0550_BELLAGIO.jpg",
+    archivo: "ONIX/BELLAGIO.jpg",
     descripcion: "Inspired by the exclusivity of natural onyx, Bellagio showcases a delicate sky-blue hue enhanced by subtle white veining and soft warm accents that add depth and sophistication. Its translucent appearance faithfully recreates the beauty of natural stone, making it an ideal choice for contemporary spaces that seek elegance, brightness, and a sense of visual openness.",
     formatos: [
     {
@@ -449,13 +449,13 @@ const imagenes = [
     },
     ],
     acabado: "Polished",
-    video: "videos/bellagio_video.mp4",
+    video: "videos/BELLAGIO.mp4",
     ficha: "pdf/bellagio_info.pdf",
      renders: [
-        {imagen: "TC6060A0550_BELLAGIO.jpg",
+        {imagen: "ONIX/TC6012A0550_BELLAGIO.jpg",
             nombre: "Blue"
             },
-        {imagen: "bellagio_1.jpg",
+        {imagen: "ONIX/BELLAGIOjpg",
             nombre: ""
             },
         {imagen: "bellagio_2.jpg",
@@ -849,6 +849,61 @@ const imagenes = [
 ],
 },
 
+{   id: "Nice",
+
+    nombre: "Nice",
+    collection: "Wood Tiles",
+    effects: ["Wood"],
+    archivo: "wood/TX6012A4112_PETRA LIGHT GREY.jpg",
+    imagenFicha: "granillo/TX6012A4112_PETRA LIGHT GREY.jpg",
+    descripcion: 
+    "Granillo is a porcelain tile inspired by the natural beauty and texture of stone. Its distinctive surface and subtle graphic variations create a sophisticated and authentic look, bringing character and versatility to residential and commercial spaces.",
+
+    formatos: [
+    { 
+        ancho: 120,
+        alto: 20
+    }   
+],
+
+    acabado: "Granular",
+
+    video: "videos/PETRA_VIDEO.mp4",
+
+    ficha: "pdf/Petra.pdf",
+
+    renders: [
+
+        {imagen: "granillo/TX6012A4112_PETRA LIGHT GREY.jpg",
+            nombre: "Light Grey"
+            },
+            {imagen: "granillo/PETRA_LIGHT GREY.jpg",
+            nombre: ""
+            },
+
+        {imagen: "granillo/TX6012B4113_PETRA MEDIUM GREY.jpg",
+            nombre: "Medium Grey",
+            },
+            {imagen: "granillo/PETRA_MEDIUM GREY.jpg",
+            nombre: ""
+            },
+        {imagen: "granillo/TX6012C4114_PETRA DARK GREY.jpg",
+            nombre: "Dark Grey",
+            },
+            {imagen: "granillo/PETRA_DARK GREY.jpg",
+            nombre: ""
+            },
+       ],
+        aplicaciones: [
+    "Residential",
+    "Commercial",
+    "Floor",
+    "Bathroom",
+    "Living Room",
+    "Bedroom",
+],
+},
+
 
 {   id: "laurent-gold",
 
@@ -1139,9 +1194,9 @@ const imagenes = [
 
     acabado: "Granular",
 
-    video: "videos/DARELLO_DARK GRAY_VIDEO.mp4",
+    video: "videos/PETRA_VIDEO.mp4",
 
-    ficha: "pdf/Mistral.pdf",
+    ficha: "pdf/Petra.pdf",
 
     renders: [
 
@@ -1174,6 +1229,7 @@ const imagenes = [
     "Bedroom",
 ],
 },
+
 
 
 
