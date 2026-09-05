@@ -436,7 +436,7 @@ const imagenes = [
     nombre: "Bellagio",
     collection: "Onix",
     effects: ["Polished"],
-    archivo: "ONIX/BELLAGIO.jpg",
+    archivo: "ONIX/TC6012A0550_BELLAGIO.jpg",
     descripcion: "Inspired by the exclusivity of natural onyx, Bellagio showcases a delicate sky-blue hue enhanced by subtle white veining and soft warm accents that add depth and sophistication. Its translucent appearance faithfully recreates the beauty of natural stone, making it an ideal choice for contemporary spaces that seek elegance, brightness, and a sense of visual openness.",
     formatos: [
     {
@@ -455,7 +455,7 @@ const imagenes = [
         {imagen: "ONIX/TC6012A0550_BELLAGIO.jpg",
             nombre: "Blue"
             },
-        {imagen: "ONIX/BELLAGIOjpg",
+        {imagen: "ONIX/BELLAGIO.jpg",
             nombre: ""
             },
         {imagen: "bellagio_2.jpg",
